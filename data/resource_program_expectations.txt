@@ -1,0 +1,129 @@
+# A3: AI Engineering Bootcamp — Program Expectations
+Source: Official program resource page
+
+This self-paced learning experience is complemented by bi-weekly practical workshops designed to support your learning through collaboration while you engage with challenging content.
+
+Mandatory Requirement: You must complete all of the Udemy modules and program deliverables to successfully graduate from the program.
+
+Program Duration: 10 Weeks
+
+---
+
+## Program Overview: Weekly Schedule
+
+Each phase builds on the last. By Week 10, you will have built working AI systems from prompts to production. Behavioral workshops develop the professional skills that matter on client engagements: proactive communication, ownership, adaptive problem-solving, and professional presence.
+
+| Week | Phase      | Content                        | Deliverable          | Other                  |
+|------|------------|-------------------------------|----------------------|------------------------|
+| 1    | Core       | LLM Engineering W1–4          |                      |                        |
+| 2    | Core       | LLM Engineering W5–8          |                      | Behavioral Workshop 1  |
+| 3    | Core       | AI Leadership module           | Project 1            | Survey 1               |
+| 4    | Agentic    | Agentic Track W1–3             |                      | Behavioral Workshop 2  |
+| 5    | Agentic    | Agentic Track W4–6             |                      |                        |
+| 6    | Agentic    | Project Focus                  | Project 2            | Survey 2               |
+| 7    | Production | Production Track W1–2          |                      | Behavioral Workshop 3  |
+| 8    | Production | Production Track W3–4          |                      |                        |
+| 9    | Capstone   | Group project work             | Project 3            | Survey 3               |
+| 10   | Capstone   | Assessment week                |                      | Showcase presentation  |
+
+---
+
+## Week 0: Onboarding
+
+**Topics covered:** Programme setup, tool access, and orientation. No technical content — this week is entirely administrative. Participants get access to the Udemy course, activate Cursor and GitHub Copilot licences, and attend the kickoff session.
+
+### Onboarding Checklist
+
+- Attend the kickoff session, scheduled for February 18, 2026 at 8:30 PM
+- Get access to Course 1 (AI Engineer Core Track) during the kickoff session and ensure you sign in to access the learning materials
+- Redeem your licenses for Cursor and GitHub Copilot
+- Bookmark the learning program space in the Andela Community (AI Engineering Bootcamp) so you can reference it along the way
+- Start learning
+
+Course: AI Engineer Core Track
+
+### Daily Breakdown
+
+- February 18, 2026 at 8:30 PM — Kickoff Session (Slides, Recording)
+- February 19, 2026 — Build Your First LLM Product: Exploring Top Models (Day 1)
+- February 20, 2026 — Build Your First LLM Product: Exploring Top Models (Day 2–3)
+
+---
+
+## Week 1: LLM Foundations
+
+**Topics covered:** Building your first LLM product, working with top frontier models, building a multi-modal chatbot with Gradio UI, using open-source models via HuggingFace, evaluating models for code generation and business tasks, and an introduction to RAG (Retrieval-Augmented Generation) with vector embeddings. This is the foundational week covering core LLM concepts and tools used throughout the rest of the programme.
+
+Course: AI Engineer Core Track
+
+### Daily Breakdown
+
+- Day 1: Build Your First LLM Product: Exploring Top Models (Day 4–5)
+- Day 2: Build a Multi-Modal Chatbot: LLMs, Gradio UI, and Agents. First behavioral competency assignment distributed.
+- Day 3: Open-Source Gen AI: Automated Solutions with HuggingFace
+- Day 4: Course Material — LLM Showdown: Evaluating Models for Code Gen & Business Tasks. Deep Dive Session (Slides, Recording).
+- Day 5: Course Material — Mastering RAG: Build Advanced Solutions with Vector Embeddings. Behavioral competency assignment due today.
+
+---
+
+## Week 2: LLM Deep Dive
+
+**Topics covered:** Advanced RAG systems using vector embeddings, the path from traditional machine learning to deep learning, fine-tuning frontier models, fine-tuning open-source models to compete with frontier models, and building autonomous multi-agent systems. This is the most technically intensive week of the core track — it covers fine-tuning (including QLoRA concepts), advanced RAG pipelines, and agentic AI.
+
+Course: AI Engineer Core Track
+
+### Daily Breakdown
+
+- Day 1: Mastering RAG: Build Advanced Solutions with Vector Embeddings
+- Day 2: Deep Dive Session with Ed
+- Day 3: From Traditional ML to Deep Learning to Fine-tuning a Frontier Model
+- Day 4: Fine-tuned open source model to compete with frontier models. Deep Dive Session with MC.
+- Day 5: Build Autonomous Multi-Agent System
+
+---
+
+## Week 3: AI Strategy and Leadership
+
+**Topics covered:** Transitioning from engineering to strategic AI thinking. Core AI concepts (LLMs, transformers, generative AI) explained for a leadership audience, evaluating frontier vs open-source models, commercial Gen AI strategy, RAG vs fine-tuning decision frameworks, AI agents vs workflows, building AI teams, AI project roadmaps, and delivering ROI. Also includes the first group project (Project 1) where squads build and present a capstone application together.
+
+Course: AI Leader — Generative AI and Agentic AI for Leaders and Founders
+
+### Daily Breakdown
+
+**Day 1: Become an AI Strategist**
+- Your Path from AI Strategist to AI Leader
+- Core AI Terms Explained: LLMs, Transformers, Generative AI
+- Frontier vs Open-Source Models and How to Choose
+- Commercial Applications of Gen AI: Strategic Implementation for Executives
+- Gen AI Strategy Framework: Business Benefits, Risks, and Implementation Planning
+
+**Day 2: Expert Session with Zion**
+- Code, Recording
+
+**Day 3: Become an AI Decision Maker**
+- AI Strategy for Executives: Adoption, Implementation, and Business Impact
+- RAG and Fine-Tuning: Adding Domain Expertise to AI Solutions
+- AI Agents vs Workflows: Understanding Autonomous Systems
+- AI Decision-Making: Cross-Functional Approach to Technical Choices
+- Leading AI Decisions: Framework for Executive Decision-Making
+
+**Day 4: Expert Session with Ed**
+
+**Day 5: Become an AI Leader**
+- AI Project Ideation: Finding Value in Predictive, Generative, and Agentic Solutions
+- Building AI Teams: Organizational Structure and Critical Skills for Success
+- AI Project Roadmaps: Managing Uncertainty Through Strategic Planning
+- AI Leadership: Fostering Adoption and Overcoming Implementation Barriers
+- Delivering AI ROI: Comprehensive Roadmap Framework for Project Success
+
+### Week 3 Deliverable: Project 1 (Group Project)
+
+- Day 1: Project topic provided by your TA
+- Day 2–4: Project implementation by each squad
+- Day 5: Solution presentation
+
+---
+
+## Week 4 and Beyond
+
+Content for Week 4 onwards will be updated as the program progresses. Based on the programme overview table, Week 4–5 covers the Agentic Track (Weeks 1–6), Week 6 includes Group Project 2, Week 7–8 covers the Production Track, and Weeks 9–10 are the Capstone phase including a final individual project and showcase presentation.

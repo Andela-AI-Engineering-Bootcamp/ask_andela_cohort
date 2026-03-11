@@ -1,0 +1,82 @@
+# SolidRoad Behavioral Training Platform — Resource Page
+Source: MC Elias (Program Staff), posted in the A3: AI Engineering Bootcamp channel
+Topic: Overview of SolidRoad, assignments, simulations, scoring, and best practices
+
+---
+
+## What is SolidRoad?
+
+SolidRoad (https://www.solidroad.com) is the behavioral competencies AI training platform used throughout the 10-week bootcamp. On the platform, participants complete simulations with AI personas based on real on-the-job and interview scenarios to help them get ready and succeed in their next role.
+
+Participants should have received an email invitation from SolidRoad on Monday 23 February. If the invite email is not found in the inbox, check spam and junk folders. Contact a program coordinator via direct message if there are still issues accessing the platform.
+
+---
+
+## Assignments
+
+Every week, participants are assigned a set of simulations to complete. Each weekly assignment includes a brief description, the expected total time for completion, and a due date. Assignments are sent every Friday and are due by the following Wednesday (the first week was an exception due to technical delays).
+
+### Assignment Schedule
+
+- Week 1 Assignment — Due: Friday 27 February, end of day (local time)
+- Week 2 Assignment — Due: Wednesday 4 March, end of day (local time)
+
+---
+
+## Context and Best Practices
+
+The weekly assignments are practice for the final Behavioral Competency Capstone at the end of the bootcamp. Low scores early on are not a cause for concern — this process is about practice and improvement.
+
+The AI personas will change across assignments. Some may be more patient and others more demanding — this is intentional, to simulate interactions with a diverse group of stakeholders. The technology is relatively new, so occasional hiccups may occur. From Week 3 onwards, participants have unlimited tries on weekly assignments to help them familiarise themselves with the platform.
+
+To set yourself up for success in every session:
+- Check your internet connection before starting
+- Minimise all background noise, as it can confuse the AI
+- Embrace role play and improv — it may feel uncomfortable at first, but this is the foundation of the scenarios. It is acceptable to improvise; the simulations are designed to feel increasingly natural over time.
+
+---
+
+## Technical Support
+
+If you encounter technical challenges that need to be resolved quickly, contact the SolidRoad support team directly. Their first-time reply time is under 2 hours. When reaching out, include a link and a screenshot of the issue if possible. The support team can be reached by clicking the "Help" button in the bottom left corner of the screen within the SolidRoad app.
+
+---
+
+## Simulations
+
+Simulations can take the form of chat, video, or audio conversations with an AI persona. Participants should act as though they are already on the job. Simulations vary throughout the programme. The following are example scenarios used in the bootcamp:
+
+### Example Simulation 1: Guiding Junior Engineers in AI Architecture Decisions (Chat)
+You are working on an AI support chatbot solution for a client. Although not the official team lead, colleagues have started approaching you for guidance on AI architecture decisions due to your experience with Python, Node.js, and modern frameworks. Your task is to provide insightful guidance on AI-related tools such as LangChain or OpenAI APIs, ensure your advice aligns with project objectives, respect the existing team hierarchy, and foster a collaborative learning environment. This scenario helps you practise stepping into informal leadership roles while maintaining professionalism.
+
+### Example Simulation 2: Handling Last-Minute AI Feature Change Requests (Video)
+You are an AI Engineer working with a client CEO named Eric Santiago. Just 12 hours before a critical milestone review, Eric requests changes to an AI feature that turn out to require significant refactoring, which could impact the current timeline. You must communicate effectively to set realistic expectations, explain the technical complexity without overcommitting to an unfeasible timeline, and present alternative solutions or a revised plan. This scenario helps you practise balancing technical feasibility with client communication.
+
+### Example Simulation 3: Empathetic 1:1 for an Overwhelmed Teammate (Chat)
+You are tasked with initiating a 1:1 conversation with a colleague named Leila Mansour, a technically driven engineer who is overwhelmed by a heavy workload and has been missing deadlines. The project involves synchronisation across different time zones. You must balance offering accountability with empathetic support, understand Leila's challenges, and collaboratively seek solutions to redistribute tasks and manage workload effectively. This scenario helps develop soft skills for addressing team dynamics in multicultural and multi-time-zone environments.
+
+You can also practise freely by accessing the full SolidRoad simulation library. Click the "Simulations" button in the top left corner of the SolidRoad app to browse available scenarios.
+
+---
+
+## Scoring and Competencies
+
+All simulations and assignments are scored on the following six behavioural competencies. The table below shows what each competency looks like in practice using a Customer Order Management System as an example context.
+
+| Competency | Description | Behavioural Example |
+|------------|-------------|---------------------|
+| B1: Proactive Initiative | Taking action or surfacing ideas before being asked | Client mentions order tracking frustration — do you surface the monitoring dashboard idea unprompted? |
+| B2: Ownership and Accountability | Taking responsibility for outcomes, including setbacks | Deployment hits a snag — how do you communicate the delay to the client? |
+| B3: Adaptive Problem-Solving | Responding effectively to ambiguity and changing requirements | Client changes requirements mid-build — how do you respond? |
+| B4: Communication of Reasoning | Explaining technical decisions clearly to non-technical stakeholders | Explain your RAG architecture choice to a non-technical stakeholder |
+| B5: Critical Thinking | Identifying flaws in proposed approaches and pushing back constructively | Client proposes a flawed caching approach — do you push back constructively? |
+| B6: Professional Presence | Presenting work confidently and professionally | Present your completed system to the executive sponsor |
+
+---
+
+## Additional Resources
+
+- **Soft Skills Learning Path** (optional, 1.5 hours): A deeper dive into Andela client expectations on the job. Available at: https://community.andela.com/c/andela-learning/soft-skills-learning/97
+
+### Workshop Slide Decks
+- Workshop 1: Proactive Communication — https://community.andela.com/secure-uploads/andela/original/3X/4/c/4ccad063a8d9b061d40a35cf61c27ade1cebe98d.pdf

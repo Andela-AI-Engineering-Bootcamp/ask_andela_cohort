@@ -1,0 +1,28 @@
+# Bootcamp Learning Toolkit
+Source: Program Staff, posted on the A3: AI Engineering Bootcamp resource page
+
+Here you'll find all the resources and information you'll need throughout your learning journey. To get started, please use the resources below.
+
+---
+
+## 1. Main Learning Resources (Mandatory)
+
+The core learning content is organised into sequential courses that follow the weekly program schedule. Access to each course will be granted as you progress through the bootcamp.
+
+- Course 1: AI Engineer Core Track — LLM Engineering (start here): https://www.udemy.com/course/llm-engineering-master-ai-and-large-language-models/
+- Course 2: AI Leader — Generative AI and Agentic AI for Leaders
+- Course 3: AI Engineer Agentic Track
+- Course 4: AI Engineer Production Track
+
+---
+
+## 2. Tools and Platforms
+
+To support your learning and collaboration, you'll have access to the following tools throughout the bootcamp:
+
+- **The Andela Community**: For all community interactions and peer discussions (Discourse).
+- **Google Meet**: Used for all live sessions, including daily check-ins, deep dives, and office hours.
+- **Coding Assistants**: Access to Cursor and GitHub Copilot to accelerate your learning and hands-on practice.
+- **SolidRoad** (https://www.solidroad.com): A platform to help you enhance your behavioral and soft skills through AI-powered simulations.
+
+---

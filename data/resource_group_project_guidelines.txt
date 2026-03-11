@@ -1,0 +1,99 @@
+# LLM Engineering Post-Course Capstone — Group Project Guidelines
+Source: Official course material, distributed to all participants in Week 3 of the A3: AI Engineering Bootcamp
+Document type: Assessment guidelines and evaluation criteria
+
+3-Day Group Project | Groups of 4 to 5 | Choose Your Own Niche | Live Demo Presentation
+
+---
+
+## Overview
+
+Each group will design and build a real-world AI application over 2 days. Groups choose their own niche, problem, and solution. The criteria below define what must be demonstrated technically and how the work will be evaluated.
+
+Every group must incorporate at least 2 of the 3 focus areas: RAG, Open-Source Models (HuggingFace), and Fine-tuning / QLoRA. Groups that incorporate all 3 are welcome to do so but it is not required.
+
+---
+
+## Core Technical Requirements
+
+There are three focus areas groups can choose from. Each has a specific meaning in practice:
+
+- **RAG (Retrieval-Augmented Generation):** Ingest documents into a vector store, retrieve relevant chunks, and feed them into an LLM.
+- **Open-Source Models (HuggingFace):** Use at least one HuggingFace model rather than relying solely on a closed API.
+- **Fine-tuning / QLoRA:** Fine-tune a small open-source model on a custom dataset relevant to the chosen niche.
+
+---
+
+## Project Scope Guidelines
+
+To ensure the project is completable within 2 days, the following constraints apply:
+
+- One clear use case. The application should do one thing well with no feature creep.
+- Small dataset. For RAG or fine-tuning, use a focused dataset of 10 to 100 documents or a few hundred rows at most.
+- No production deployment required. A working local Gradio demo is the expected standard.
+- Pre-trained base models only. No training from scratch.
+- API costs should remain minimal. The project can be completed for under $5 in API spend.
+
+---
+
+## Demo Requirements
+
+The final deliverable is a working demo presented live to the cohort. The demo must meet all of the following:
+
+- Run end-to-end without errors during the presentation.
+- Include a simple working UI. Gradio is recommended as it was covered in the course.
+- Accept a real user input and return a meaningful, AI-generated response.
+- Make clear which LLM techniques are being used under the hood.
+- Be original and not a copy or minor modification of any project from the course.
+
+---
+
+## Collaboration
+
+Groups are responsible for organising their own internal structure and division of work. It is expected that contribution is distributed across all members. During the demo, each member must be able to speak to their own contribution. Groups that cannot demonstrate balanced participation will be marked down in the Collaboration category.
+
+Please communicate in the Discourse channel in threads, have meetings with each other, and engage with your group regularly.
+
+---
+
+## Evaluation Criteria
+
+Projects are graded across five criteria with the following weights:
+
+- **Technical implementation (RAG / HuggingFace / Fine-tuning):** 35%
+- **Demo quality — runs live, clear input/output, real use case:** 25%
+- **Creativity and niche relevance (not a copy of course projects):** 20%
+- **Collaboration — balanced contribution across the group:** 10%
+- **Code quality — readable, modular, not over-engineered:** 10%
+
+---
+
+## Quality Benchmarks
+
+The following benchmarks illustrate the difference between a strong submission and a weak one:
+
+- A strong submission solves a specific real problem in a chosen niche. A weak submission is a vague or generic chatbot with no clear purpose.
+- A strong submission uses a HuggingFace model with a clear reason for that choice. A weak submission defaults to a closed API for everything.
+- A strong submission uses RAG to retrieve from meaningful, curated documents. A weak submission applies RAG to unrelated or arbitrary files.
+- A strong submission shows that fine-tuning demonstrably improves the model on the task. A weak submission does fine-tuning but never evaluates or compares the results.
+- A strong submission demonstrates a clear, end-to-end use case flow during the demo. A weak submission runs a single prompt and stops.
+
+---
+
+## Example Niches
+
+Groups are free to choose any niche. The following are provided only to spark ideas and are not prescriptive:
+
+- A RAG-based legal document question and answer tool
+- A fine-tuned customer support assistant for an e-commerce niche
+- A medical FAQ assistant using RAG over curated health articles
+- A fine-tuned creative writing assistant for a specific genre
+- A RAG system built over a mocked internal company knowledge base
+- A product recommendation engine combining RAG with an open-source model
+- An AI tutor for a subject area, fine-tuned on domain-specific question and answer pairs
+
+---
+
+## Final Note
+
+The strongest submissions are not the most complex. They are the ones that solve a clearly defined problem, apply the techniques correctly, and present with confidence. Scope small and execute well.

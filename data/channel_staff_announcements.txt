@@ -1,0 +1,155 @@
+# Staff Announcements — A3: AI Engineering Bootcamp
+Source: Official announcements posted by Andela program staff in the A3: AI Engineering Bootcamp channel
+
+---
+
+## Welcome Announcement — MC Elias (Strategic Talent Experience Manager)
+
+Hi everyone,
+
+My name is MC, Andela's Strategic Talent Experience Manager. I've had the pleasure of working alongside the Learning and Community teams for almost four years. If you have any questions about the Andela Community, or what Andela does in general, I'm your person.
+
+Welcome to the AI Engineering Bootcamp! We are excited that you're here.
+
+Here is what's next:
+
+- Join the kick-off call tomorrow. This is where you'll access your first course, so it's very important that you attend.
+- Drop a quick intro in the channel to get to know your fellow AI Engineers and bootcamp leads.
+- Visit the AI Engineering Bootcamp resource space on Andela Community and read all of the resources so you're set up for success. Link: https://community.andela.com/c/ai-engineering-bootcamps/100
+
+---
+
+## SolidRoad Week 2 Assignment — MC Elias
+
+Hi everyone,
+
+Your Week 2 SolidRoad assignment is now live. You should all receive an email shortly. Assignment links will also be updated in this post for quick access.
+
+If you have any feedback about SolidRoad, please share it in the thread. This is our first time using the tool and your input on how the Week 1 assignment went is valuable.
+
+---
+
+## Learning Begins — Week 1 Kickoff — Zion Pibowei (Program Lead)
+
+Hello everyone,
+
+Welcome to the Andela AI Engineering Bootcamp. It was great having you all in the kickoff session and I'm proud of everyone who made it into the program.
+
+Learning begins today. You are starting the first module: Build Your First LLM Product — Exploring Top Models. The course is hosted on Udemy. Focus on the first 10 tutorials with the "Day 1" prefix. Course link: https://www.udemy.com/course/llm-engineering-master-ai-and-large-language-models/
+
+We have a structured timeline and schedule for learning resources on a weekly and daily basis. Check out the program timeline to see the daily breakdown and follow this schedule carefully. Link: https://community.andela.com/t/program-expectations/163650
+
+Every resource you need to complete this program can be found in the AI Engineering Bootcamp space on Andela Community. Bookmark it for easy access: https://community.andela.com/c/ai-engineering-bootcamps/100
+
+You should have received calendar invites for all daily sessions, including check-ins with your TA, expert deep dives, and office hours. Check your calendar so you don't miss these.
+
+If you need help with anything, the primary approach is to post in your TA group channel where your TAs and peers can assist you, or DM your TA directly. For a detailed guideline on getting help and where to post, see: https://community.andela.com/t/where-to-post-what-and-getting-help/163652
+
+---
+
+## Week 1 Deep Dive — Session Recording and Slides — Zion Pibowei
+
+Hello everyone,
+
+Well done on your Week 1 progress and thank you for all your questions in the deep dive session. The slides and recording from the session are available if you'd like to review them:
+
+- Slides: https://drive.google.com/file/d/18tCVZb-6Z-Ble5SsoOmAemXKI5LgS5_A/view
+- Recording: https://drive.google.com/file/d/199me47n3TfpfCLDK0nwhKmBNKgDmn/view
+
+---
+
+## Group Check-in Reminder — Ibrahim Kabiru (Senior Talent Learning Manager)
+
+Hey everyone,
+
+This is a reminder to attend your group check-in today with your Teaching Assistant (TA). If you are experiencing any issues — such as accessing the course or GitHub Copilot — please document it with your TA during the check-in.
+
+---
+
+## Course 2 Enrollment — AI Leadership Track — Ibrahim Kabiru (Senior Talent Learning Manager)
+
+Congratulations on reaching the peak of the AI Engineer Core Track. Your performance over the past two weeks — culminating in 500+ pull requests and strong completion rates across all pods — has been impressive.
+
+As you finalise the remaining modules and clear outstanding PRs from last week, it is time to transition into the next course: Course 2 — AI Leader: Generative AI and Agentic AI for Leaders and Founders.
+
+This course bridges the gap between technical mastery and strategic leadership, helping you understand how to drive AI initiatives and communicate technical value to global stakeholders.
+
+### Enrollment Details
+
+- Official Start Date: Monday, 9 March 2026
+- If you have completed Course 1: Attend your team check-in on Monday, 9 March 2026 to receive enrollment details.
+- If you have not completed Course 1: Make every effort to complete it before your team check-in on Tuesday, 10 March 2026. Enrollment into Course 2 will only be granted after successful completion of Course 1.
+
+---
+
+## Week 2 Overview — AI Engineer Core Track — Maureen Milgo (Program Staff)
+
+Week 2 takes us deeper into applied AI engineering.
+
+This week covers:
+- Advanced RAG systems using vector embeddings
+- Moving from traditional ML to deep learning
+- Fine-tuning frontier models
+- How to fine-tune open-source models
+
+Expect hands-on learning, deeper technical discussions, and live deep-dive sessions to solidify your understanding. This week is about moving beyond concepts and building real capability.
+
+---
+
+## Week 3 Overview — AI Leader: Generative AI and Agentic AI for Leaders and Founders — Maureen Milgo
+
+This week is about thinking like an AI leader.
+
+Topics covered this week:
+- Fundamentals behind modern AI systems: LLMs, transformers, and generative AI
+- How leaders evaluate frontier vs open-source models
+- How organisations are strategically implementing generative AI
+- Executive AI decision-making: RAG vs fine-tuning, AI agents vs workflows, cross-functional AI strategy frameworks
+- Identifying high-value AI projects, building AI teams, planning AI roadmaps, and delivering real ROI
+- Two expert sessions with industry practitioners
+
+What is expected from participants this week:
+- Stay on track with the lessons
+- Join the expert sessions
+- Engage in discussions
+- Start identifying AI opportunities in your organisation
+
+The goal for the week: move from understanding AI to leading AI. For the detailed weekly breakdown, see: https://community.andela.com/t/program-expectations/163650
+
+---
+
+## Weekly Reflection Ritual — Maureen Milgo
+
+A new weekly ritual has been introduced in this channel: pausing each Friday to celebrate progress made as a team, no matter how big or small. Over time these reflections help document the moments that shaped the learning journey.
+
+Participants are encouraged to drop one highlight from their week in the comments. This could be:
+- A win you are celebrating
+- A tough challenge you solved or worked through
+- A learning or insight that others could benefit from
+
+---
+
+## Week 1 Leaderboard Update — Maureen Milgo
+
+Week 1 of the Gen AI Program has officially wrapped up. The leaderboard is based on participant engagement in the Andela Community platform. Several participants have been recognised for their activity and progress in Week 1. Showing up and engaging in Week 1 sets the tone for the entire programme.
+
+---
+
+## Participant Recognition — Umar Javed (Igniters Squad Lead)
+
+Two participants were recognised this week for making solid progress in the AI Engineering Bootcamp:
+
+- One participant is currently in Week 4, continuing to execute with consistency — having shipped a PR and staying on track.
+- Another participant is progressing through Week 3, having delivered their first PR and maintaining steady momentum.
+
+The recognition highlights a shared mindset across the cohort: discipline, action, and forward progress.
+
+---
+
+## Group Project Announcement — Umar Javed (Igniters Squad Lead)
+
+The 2-Day Group Project details have been shared. Please review the project document here: https://docs.google.com/document/d/1f9iS2BdwQUWyEXXeUfzUz9ysedz-Im6e_HXl0lw7HOI/edit
+
+Groups are expected to communicate in their threads and hold meetings to discuss the project — not just chat. Squad leaders are responsible for leading their groups. The list of squad leaders and squad assignments is available here: https://docs.google.com/spreadsheets/d/1fs0OVsZzlDmU3DG-3Xyefy87DnvwnJT3K18FE6xRoT4/edit
+
+Final presentations will be held on Friday. One person per group can present — it does not have to be the same person for every task. The AI Leadership course (Course 2) is approximately 3.5 hours, so it is recommended to complete it as soon as possible to free up time for the project.

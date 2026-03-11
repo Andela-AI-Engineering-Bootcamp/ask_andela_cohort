@@ -1,0 +1,60 @@
+# Community Map — A3: AI Engineering Bootcamp
+
+## What You Need to Know First
+
+Let's define some terms to help you move around the Andela Community and your program:
+
+**Chat channels** are public or sometimes private community group chats. Because chat channels don't have advanced searchability features, use them for time-restricted, fast-moving conversations that you don't mind losing.
+
+**Spaces** are forum-style posts with better organisation. This is where all resources live and where evergreen content is published.
+
+---
+
+## Community Map
+
+### Main Bootcamp Channel
+- **A3: AI Engineering Bootcamp** — https://community.andela.com/chat/c/b-a3-ai-engineering-bootcamp/143
+  - Type: Chat channel
+  - Purpose: Bootcamp-wide announcements, discussions, wins, collaborations, off-topic conversation, and human connection.
+
+### Group Channels (Squad Channels)
+Each group channel is where questions, help requests, wins, and discussions take place. Your squad thread lives here and you are expected to send a daily standup in your group channel.
+
+- **Igniters** — https://community.andela.com/chat/c/b-igniters/146
+- **Neural-Forge** — https://community.andela.com/chat/c/b-forge-forge/147
+- **Frontiers** — https://community.andela.com/chat/c/b-frontiers/151
+- **Wakanda** — https://community.andela.com/chat/c/b-wakanda/144
+- **Euclid** — https://community.andela.com/chat/c/b-euclid/145
+- **AI-Alchemists** — https://community.andela.com/chat/c/b-ai-alchemists/148
+
+### Resources Space
+- **AI Engineering Bootcamp Space** — https://community.andela.com/c/ai-engineering-bootcamps/100
+  - Type: Space
+  - Purpose: Where you'll find resources like this one.
+
+---
+
+## Your Squad
+
+You'll be assigned to a squad of six learners. Each week, one person serves as squad leader, responsible for gathering updates and posting a summary before the TA check-in. This role rotates so everyone gets a chance to lead.
+
+Squads will be reshuffled at Weeks 4 and 7, giving you the opportunity to collaborate with different peers throughout the bootcamp. Your TA will remain the same for the entire program.
+
+---
+
+## Getting Help
+
+1. **Post in your group channel first.** Your peers often have the same question or already know the answer.
+2. **Office hours:** Wednesday and Friday afternoons. Bring your stuck points.
+3. **Still stuck:** DM your TA directly. They're there to help.
+4. **Personal issue:** DM the Community Team at https://community.andela.com/groups/community.team or contact your TA.
+
+---
+
+## A Note on Learning Together
+
+The best learning is social. You are not competing with each other for roles. There is a massive global shortage of AI engineers and the demand continues to grow. The opportunities are out there — your job is to get ready together.
+
+Ten weeks from now, you'll be an AI engineer — not just in theory, but in practice. The companies building what comes next need people who can do this work. You're at the vanguard, and what you're learning here puts you ahead of most engineers in the industry.
+
+Stay the course. Ask for help when you need it. Help others when you can. The future is wide open.
