@@ -1,0 +1,120 @@
+# Andela Additional Learning Materials
+
+This document catalogues programs, courses, event recordings, and certification drives hosted by the Andela Learning Team and staff. It covers both technical upskilling and professional development resources available to all Andela community members.
+
+---
+
+## Category 1: AI and Technical Programs
+
+### AI Assisted Coding: GitHub Copilot Program
+A program focused on using GitHub Copilot to accelerate software development. Covers AI-assisted code completion, generating boilerplate, writing tests, and understanding AI pair programming in a real engineering workflow.
+
+### GenAI Bootcamps
+A series of bootcamps on Generative AI covering foundational and applied concepts including large language models, prompt engineering, RAG pipelines, fine-tuning, and building AI-powered applications. This is one of Andela's flagship technical learning initiatives.
+
+### AI/ML - Andela Skill Series
+A structured skill series covering Artificial Intelligence and Machine Learning fundamentals. Topics include supervised and unsupervised learning, model training, evaluation, and deployment of ML systems.
+
+### AI Prompt Engineering - Andela Skill Series
+A dedicated skill series on prompt engineering techniques for working with large language models. Covers zero-shot and few-shot prompting, chain-of-thought reasoning, system prompts, and best practices for building reliable LLM-powered features.
+
+### Emergence AI Training Program
+A training program focused on practical AI skills and emerging AI technologies. Designed to help engineers build hands-on experience with modern AI tools and frameworks.
+
+### Can You Build AI Agents?
+An event or workshop exploring how to design and build AI agents — autonomous systems that use LLMs to plan, reason, and take actions. Covers tool use, memory, and agent frameworks.
+
+### Data Science and Engineering - Andela Skill Series
+A skill series covering data science and data engineering concepts including data pipelines, feature engineering, statistical analysis, and working with large datasets.
+
+### Azure: Cloud Fusion Series
+A series covering Microsoft Azure cloud services with a focus on practical application. Topics include cloud architecture, deployment, storage, compute, and integrating cloud services into software products.
+
+### Cybersecurity
+A learning track dedicated to cybersecurity fundamentals for software engineers. Covers threat modelling, secure coding practices, vulnerability assessment, and common attack vectors.
+
+### Cybersecurity Tips to Help You Thrive
+A practical session or guide with actionable cybersecurity habits for engineers working in professional and remote settings. Covers password hygiene, phishing awareness, secure communication, and protecting client data.
+
+### Qualified Programming Puzzles
+A series of structured coding challenges and programming puzzles designed to sharpen algorithmic thinking, problem-solving, and interview readiness.
+
+---
+
+## Category 2: Soft Skills Learning Path
+
+The Soft Skills Learning Path is a structured multi-module programme designed to develop the professional and interpersonal skills that complement technical expertise. It is one of Andela's most comprehensive non-technical learning programmes.
+
+### Module One: The Foundation
+The first module of the Soft Skills Learning Path. Covers foundational professional skills including self-awareness, accountability, and setting the mindset for growth and client success.
+
+### Module Two: Business Mindset
+The second module of the Soft Skills Learning Path. Focuses on developing a business-oriented perspective — understanding client priorities, commercial thinking, and delivering value beyond technical output.
+
+### Module Three: Engineering Your Brand
+The third module of the Soft Skills Learning Path. Covers personal branding for engineers — how to articulate your value, build a professional presence, and position yourself effectively in the market.
+
+### Module Four: High-Trust Collaboration
+The fourth module of the Soft Skills Learning Path. Focuses on building trust within distributed and cross-cultural teams, managing expectations, and sustaining productive long-term professional relationships.
+
+### Advanced Soft Skills for Technical Professionals
+An advanced session covering professional effectiveness for engineers at a senior or experienced level. Addresses topics such as stakeholder management, handling difficult conversations, and leading without authority.
+
+### Beyond the Code: What Clients Are Looking For
+A session exploring what clients actually value when working with engineers — beyond technical skills. Covers communication, reliability, proactivity, cultural fit, and how to stand out as a trusted partner rather than just a developer.
+
+### How Can I Improve My English Fluency?
+A resource or session dedicated to improving English communication for non-native speakers in professional settings. Covers practical techniques for building vocabulary, reducing hesitation, and communicating with confidence in client interactions.
+
+### Effective and Adaptable Communication
+A session on communication flexibility — adjusting your communication style to different audiences, contexts, and seniority levels. Particularly relevant for remote and international teams.
+
+### Communicating Across Cultures
+A session covering cross-cultural communication skills. Addresses how cultural differences affect workplace communication, feedback styles, directness, and professional norms across different regions.
+
+### Building an EPIC Team
+A workshop or event on high-performance team dynamics. Covers the qualities of effective teams, psychological safety, shared accountability, and how to contribute to a positive team culture.
+
+---
+
+## Category 3: Career Growth and Personal Brand
+
+### Level Up Your Personal Brand: A LinkedIn Session
+A practical LinkedIn session on building and optimising a professional profile. Covers headline writing, showcasing projects, engaging with the community, and using LinkedIn as a tool for career growth and visibility.
+
+### Turn Code Into Content Gold: How to Write Tech Blogs That Boost Your Career
+A session on technical writing and content creation. Covers how to turn engineering work into blog posts, case studies, and articles that demonstrate expertise and build a public professional profile.
+
+### The Ultimate Guide to Becoming a Tech Thought Leader (Part 1 of 3)
+The first part of a three-part guide on establishing thought leadership in the technology industry. Covers identifying your niche, building an audience, and creating consistent, valuable content.
+
+### Navigating Your Career Growth with Purpose
+A session on intentional career development. Covers goal setting, identifying growth opportunities, building relationships, and making deliberate decisions about the direction of your engineering career.
+
+### Trade Your New Year Resolutions for SMART Goals
+A session on replacing vague resolutions with structured, achievable goals using the SMART framework (Specific, Measurable, Achievable, Relevant, Time-bound). Applied to career and professional development.
+
+### Insights and Trends for Product Professionals - 2025
+A session covering the latest trends and expectations for product-focused professionals in 2025. Includes insights on AI integration in product roles, shifting client expectations, and emerging skills in demand.
+
+---
+
+## Category 4: Client Insights and Community
+
+### Client Insights: AI Literacy
+An insights session covering what clients expect from engineers regarding AI literacy in 2025. Addresses how to demonstrate understanding of AI tools, speak credibly about AI capabilities, and contribute to AI-adjacent projects.
+
+### Client Insights: Remote Communication
+An insights session on what clients value in remote communication with their engineering teams. Covers async communication norms, responsiveness expectations, clarity in written updates, and managing time zone differences.
+
+### Cryptocurrency, Investments and Savings: Financial Literacy Session
+A financial literacy session covering cryptocurrency basics, investment principles, and savings strategies for tech professionals. Aimed at helping community members make informed personal financial decisions.
+
+### Kata of the Week
+A recurring community initiative featuring weekly coding challenges (katas) to help engineers practise problem-solving, maintain coding sharpness, and engage with peers through a shared technical activity.
+
+### Andela's Largest Learning Program Is Back
+An announcement about the return of one of Andela's flagship community learning programmes. Signals a major cohort or curriculum launch open to all Andela community members.
+
+### Path Overview
+An orientation resource providing an overview of the available learning paths within Andela's learning ecosystem. Helps members understand which programmes are available, how they are structured, and how to navigate them.

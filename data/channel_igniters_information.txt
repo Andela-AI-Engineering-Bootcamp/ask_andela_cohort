@@ -1,0 +1,159 @@
+# Course 1 PR Completion — A3: AI Engineering Bootcamp (Last Updated: 11 March 2026)
+Source: Igniters squad progress tracker, LLM Engineering Core Track
+Document type: Participant pull request submission status across 8 weeks
+
+Each participant submits a weekly GitHub pull request to the shared course repository (ed-donner/llm_engineering) as their weekly deliverable. This document records who has submitted for each week and flags missing submissions.
+
+---
+
+## PR Completion Summary — Who Is Missing Submissions
+
+This section directly answers questions about outstanding or missing pull requests.
+
+### Participants with all 8 weeks submitted (complete)
+Achala Elijah, Amit Bhatt, Ayesha Parveen, Colline Waitire, Damola Adewunmi, Ebenezer Casely Hayford, Elijah Haastrup, John Mboga, Joshua Balogun, Kayode Adeyemi, Kihara Njoroge, Michael Aigbovbiosa, Michael Onyekanma, Mwende Mugao, Nsikan Sylvester Ikpoh, Oladele Seun, Olawale Adeogun, Rithwik Mutyala, Sodiq Alabi, Stella Oiro, Tobechukwu David Uka, Tunde Wey, Ukweh Chimaizu Everest.
+
+### Participants with missing submissions
+
+- **Chelsea Calhoun** — Missing all 8 weeks. No pull requests submitted for any week of Course 1.
+- **Adeyemi Adetayo Adeyinka** — Missing Week 8. Submitted Weeks 1 through 7.
+- **Joel Ngahu** — Missing Weeks 7 and 8. Submitted Weeks 1 through 6.
+- **Martins Awojide** — Missing Weeks 5 and 8. Submitted Weeks 1, 2, 3, 4, 6, and 7.
+- **Oluwaferanmi Oluwagbamila** — Missing Week 8. Submitted Weeks 1 through 7.
+- **Philip Onuchukwu** — Missing Weeks 7 and 8. Submitted Weeks 1 through 6.
+
+### Outstanding submissions by week
+
+- **Week 5:** Martins Awojide
+- **Week 7:** Joel Ngahu, Philip Onuchukwu
+- **Week 8:** Adeyemi Adetayo Adeyinka, Chelsea Calhoun, Joel Ngahu, Martins Awojide, Oluwaferanmi Oluwagbamila, Philip Onuchukwu
+
+---
+
+## Full Submission Record — Individual Participants
+
+### Achala Elijah
+Submitted all 8 weeks. Pull requests: Weeks 1–3 (PR #2278), Week 4–5 (PR #2332), Weeks 6–8 (PR #2609).
+
+### Adeyemi Adetayo Adeyinka
+Submitted Weeks 1 through 7. Week 8 is missing.
+PRs: W1 #1523 · W2 #1680 · W3 #1623 · W4 #1923 · W5 #2008 · W6 #2248 · W7 #2496
+
+### Amit Bhatt
+Submitted all 8 weeks.
+PRs: W1 #1452 · W2 #1527, #1706 · W3 #1706 · W4 #1714 · W5 #2628 · W6 #2631 · W7 #2637 · W8 #2641
+
+### Ayesha Parveen
+Submitted all 8 weeks.
+PRs: W1 #1619 · W2 #1879 · W3 #1898 · W4 #1901 · W5 #2059 · W6 #2279 · W7 #2359 · W8 #2401
+
+### Chelsea Calhoun
+No pull requests submitted for any week. All 8 weeks are outstanding.
+
+### Colline Waitire
+Submitted all 8 weeks.
+PRs: W1 #1457 · W2 #1489 · W3 #1561 · W4 #1641 · W5 #2128 · W6 #2133 · W7 #2633 · W8 #2636
+
+### Damola Adewunmi
+Submitted all 8 weeks.
+PRs: W1 #1555 · W2 #1688 · W3 #2040 · W4 #1725 · W5 #2099 · W6 #2196 · W7 #2234 · W8 #2523
+
+### Ebenezer Casely Hayford
+Submitted all 8 weeks.
+PRs: W1 #1455 · W2 #1546 · W3 #1651 · W4 #1749 · W5 #1869 · W6 #2030 · W7 #2205 · W8 #2320
+
+### Elijah Haastrup
+Submitted all 8 weeks.
+PRs: W1 #1497 · W2 #1689 · W3 #1810 · W4 #1823 · W5 #2203 · W6 #2223 · W7 #2254 · W8 #2458
+
+### Joel Ngahu
+Submitted Weeks 1 through 6. Weeks 7 and 8 are missing.
+PRs: W1 #1699 · W2 #1925 · W3 #2103 · W4 #2400 · W5 #2487 · W6 #2489
+
+### John Mboga
+Submitted all 8 weeks.
+PRs: W1 #1402, #1448 · W2 #1577 · W3 #1733 · W4 #1907 · W5 #2079 · W6 #2560 · W7 #2582 · W8 #2596
+
+### Joshua Balogun
+Submitted all 8 weeks.
+PRs: W1 #1498 · W2 #1782 · W3 #2287 · W4 #2368 · W5 #2450 · W6 #2520 · W7 #2565 · W8 #2648
+
+### Kayode Adeyemi
+Submitted all 8 weeks.
+PRs: W1 #1441 · W2 #1568 · W3 #1669 · W4 #1773 · W5 #1988 · W6 #2299 · W7 #2370 · W8 #2441
+
+### Kihara Njoroge
+Submitted all 8 weeks.
+PRs: W1 #1667 · W2 #1668 · W3 #1670 · W4 #1798 · W5 #2100 · W6 #2164 · W7 #2166 · W8 #2369
+
+### Martins Awojide
+Submitted Weeks 1, 2, 3, 4, 6, and 7. Weeks 5 and 8 are missing.
+PRs: W1 #1521, #1432 · W2 #1721 · W3 #1838 · W4 #2143 · W6 #2459 · W7 #2338
+
+### Michael Aigbovbiosa
+Submitted all 8 weeks.
+PRs: W1 #1547 · W2 #1661 · W3 #1741 · W4 #1820 · W5 #2127 · W6 #2322 · W7 #2363 · W8 #2579
+
+### Michael Onyekanma
+Submitted all 8 weeks.
+PRs: W1 #1824 · W2 #1826 · W3 #1827 · W4 #1831 · W5 #2087 · W6 #2098 · W7 #2099 · W8 #3000
+
+### Mwende Mugao
+Submitted all 8 weeks.
+PRs: W1 #1635 · W2 #1936 · W3 #1938 · W4 #1939 · W5 #2016 · W6 #2507 · W7 #2508 · W8 #2510
+
+### Nsikan Sylvester Ikpoh
+Submitted all 8 weeks.
+PRs: W1 #1536 · W2 #1596 · W3 #1705 · W4 #1751 · W5 #2046 · W6 #2074 · W7 #2204 · W8 #2600
+
+### Oladele Seun
+Submitted all 8 weeks.
+PRs: W1 #1758 · W2 #1759 · W3 #1809 · W4 #2130 · W5 #2446 · W6 #2554 · W7 #2555 · W8 #2625
+
+### Olawale Adeogun
+Submitted all 8 weeks.
+PRs: W1 #1425 · W2 #1466 · W3 #1550 · W4 #1677 · W5 #1885 · W6 #2171 · W7 #2182 · W8 #2228
+
+### Oluwaferanmi Oluwagbamila
+Submitted Weeks 1 through 7. Week 8 is missing.
+PRs: W1 #2113 · W2 #2167 · W3 #2245 · W4 #2245 · W5 #2381 · W6 #2382 · W7 #2391
+
+### Philip Onuchukwu
+Submitted Weeks 1 through 6. Weeks 7 and 8 are missing.
+PRs: W1 #1812 · W2 #1817 · W3 #2023 · W4 #2281 · W5 #2504 · W6 #2677
+
+### Rithwik Mutyala
+Submitted all 8 weeks.
+PRs: W1 #1660 · W2 #1712 · W3 #1984 · W4 #1985 · W5 #2080 · W6 #2184 · W7 #2210 · W8 #2415
+
+### Sodiq Alabi
+Submitted all 8 weeks.
+PRs: W1 #1468 · W2 #1638 · W3 #1727 · W4 #1835 · W5 #2034 · W6 #2237 · W7 #2306 · W8 #2449
+
+### Stella Oiro
+Submitted all 8 weeks.
+PRs: W1 #1486 · W2 #1685 · W3 #1710 · W4 #1814 · W5 #1893 · W6 #2002 · W7 #2226 · W8 #2296
+
+### Tobechukwu David Uka
+Submitted all 8 weeks.
+PRs: W1 #1437 · W2 #1492 · W3 #1583 · W4 #1601 · W5 #1808 · W6 #1962 · W7 #2042 · W8 #2200
+
+### Tunde Wey
+Submitted all 8 weeks.
+PRs: W1 #1655 · W2 #1673 · W3 #1679 · W4 #1678 · W5 #2005 · W6 #2009 · W7 #2094 · W8 #2096
+
+### Ukweh Chimaizu Everest
+Submitted all 8 weeks.
+PRs: W1 #1707 · W2 #1707 · W3 #1707 · W4 #1805 · W5 #1805 · W6 #1805 · W7 #2117 · W8 #2198
+
+---
+
+## Squads in Igniters and Their Squad Leaders
+
+The A3: AI Engineering Bootcamp cohort is divided into five squads. Each squad has a designated squad leader (rotated weekly) responsible for coordinating their group.
+
+- Squad 1 — Titan: led by Michael Aigbovbiosa
+- Squad 2 — Transformers: led by Michael Onyekanma
+- Squad 3 — Unity: led by Mwende Mugao
+- Squad 4 — Odyssey: led by Nsikan Sylvester Ikpoh
+- Squad 5 — Megatron: led by Oladele Seun

@@ -1,0 +1,35 @@
+# Program Deliverables and Weekly Schedule
+Source: Program Staff, A3: AI Engineering Bootcamp resource page
+
+This document describes how participants are assessed throughout the bootcamp and what the weekly schedule looks like.
+
+---
+
+## Deliverables and Assessments
+
+Your performance is assessed through the following deliverables:
+
+| Deliverable | When | How It Works |
+|---|---|---|
+| Group Projects | Weeks 3, 6, 9 | Collaborative work with your squad, peer reviewed |
+| Peer Review | Throughout | You review others' work, they review yours. Pass/fail. |
+| Capstone | Weeks 9–10 | Individual project demonstrating what you've learned |
+| Behavioral Assignments | Due every Wednesday | Complete an assigned simulation in SolidRoad and receive feedback on how to improve |
+
+Peer review is not graded numerically. It is pass/fail: did you engage seriously with the work? The point is learning from each other, not competing.
+
+---
+
+## Weekly Schedule
+
+The weekly rituals ensure that participants keep pace and that leads can provide support along the way.
+
+| Day | What Happens |
+|---|---|
+| Monday | Squad standup, TA check-in, Monday kickoff |
+| Tuesday | Squad standup, TA check-in, Deep dive (90 min) |
+| Wednesday | Squad standup, TA check-in, Behavioral assignments due, Office hours |
+| Thursday | Squad standup, TA check-in, Deep dive (90 min) |
+| Friday | Squad standup, TA check-in, Office hours, Friday wins |
+
+Deep dives are the main teaching sessions. Office hours are for questions and help. The rest of your time is self-directed: Udemy courses, projects, and peer collaboration.

@@ -1,0 +1,67 @@
+# General Channel — Student Issues, Solutions, and Updates
+Source: Student posts in the A3: AI Engineering Bootcamp general channel
+
+---
+
+## Issue: openai Module Not Found in VS Code
+
+A participant working with VS Code as their IDE encountered a dependency error — the `openai` module was not found — while trying to run the Week 1 Jupyter notebook. They asked whether other VS Code users were experiencing the same issue.
+
+---
+
+## Solution: Visual Studio Build Tools Installation on Windows
+
+Multiple participants reported issues installing Visual Studio Build Tools, particularly via the standard installer. A participant shared the following working solution for Windows users:
+
+Download `vs_BuildTools.exe` to your Downloads folder, then open PowerShell as Administrator using:
+
+```
+Start-Process powershell -Verb runAs -ArgumentList "-NoExit", "-Command", "Set-Location -LiteralPath '$PWD'"
+```
+
+Confirm you are in the Downloads folder and that `vs_BuildTools.exe` is present using `ls`, then run:
+
+```
+.\vs_BuildTools.exe --passive --downloadThenInstall --add Microsoft.VisualStudio.Workload.VCTools --includeRecommended
+```
+
+This will start the download and installation process.
+
+A separate participant also reported being unable to install Cursor on Ubuntu — they noted it was not an OS issue but that they could not access the Cursor website to download the installer.
+
+---
+
+## Student-Built Tool: AI Assistant for GitHub PR Submissions
+
+A participant proactively built an AI assistant to help students with GitHub Pull Request submissions, after noticing many students were struggling with the process. The assistant works as follows:
+
+- It is based on Ed Donner's PR guide and the cohort's standard PR review steps
+- Students can ask where they are stuck and the assistant will guide them through the process
+- Students can paste their PR link and the assistant will check it for common mistakes
+- The assistant supports switching between different models
+
+---
+
+## Issue: Camera Not Working in Browser Meeting
+
+A participant reported a camera issue during an online session. The suggested fix was to check browser camera permissions in Chrome settings and then restart or reload the browser.
+
+Reference: Chrome Help — "Use your camera and microphone in Chrome"
+
+---
+
+## Issue: OpenAI Credits Purchase Failing with Visa Card via Tremendous Coupon
+
+A participant was unable to complete a Visa card transaction when purchasing OpenAI tokens using the Tremendous coupon provided by the programme. They asked whether anyone else had resolved this issue.
+
+---
+
+## Issue: Udemy Course Access Failing with Provided Coupon
+
+A participant reported being unable to access the Udemy course using the coupon code provided. They asked whether anyone had found a solution.
+
+---
+
+## Student Progress: Multimodal AI Synthetic Data Generator Deployed
+
+A participant successfully deployed a Multimodal AI Synthetic Data Generator on Render, connected through OpenRouter. The project was built as part of the Week 3 exercise and involved working through environment and deployment challenges encountered in Week 2. The participant shared a breakdown of the project publicly and encouraged others to keep building.
