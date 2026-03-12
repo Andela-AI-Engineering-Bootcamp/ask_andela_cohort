@@ -1,0 +1,43 @@
+# AI Bootcamp: Protocol for Daily Async Squad Updates
+
+This document outlines the protocol all bootcamp members and squad leads must follow for daily async updates in their squad channels.
+
+---
+
+## Member's Role — Daily Update
+
+All members, including squad leads, are required to provide a daily update by **1:30 PM GMT**.
+
+Use the following format for your update:
+
+- **Course:** State the week and day of the course you have completed. Example: Week 1 Day 5
+- **Blockers:** List any technical challenges you need help with.
+- **Pull Requests (PRs):** Share the link to any expected pull requests, if applicable.
+
+---
+
+## Lead's Role
+
+Squad leads have two responsibilities each day: creating the daily thread and posting the squad summary.
+
+### 1. Daily Thread Creation
+
+- **Naming Convention:** Squad icon + Week [x] Day [y]. Example: Week 1 Day 2
+- **Time Due:** At least 2 hours before 1:45 PM GMT (i.e., by 11:45 AM GMT at the latest)
+- Note: The program coordinator will create the threads for the first day; squad leads take over from Wednesday onwards.
+
+### 2. Squad Lead Daily Summary
+
+- **Time Due:** 1:45 PM GMT
+
+Use the following template for the summary post:
+
+**[Squad number]**
+
+**Summary**
+- **Stats:** [updates provided] / [total in squad]. Example: 6/6
+- If the updates provided do not match the total, provide a breakdown:
+  - **Updates From:** [list of members who submitted]
+  - **No Updates From:** [list of members who did not submit]
+- **Blockers:**
+  - [Member name]: one-line description of their issue

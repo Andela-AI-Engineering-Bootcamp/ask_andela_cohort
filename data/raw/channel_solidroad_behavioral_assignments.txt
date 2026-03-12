@@ -1,0 +1,78 @@
+# SolidRoad Behavioral Assignments — Announcement from Course Staff
+Source: MC Elias (Program Staff), posted in the A3: AI Engineering Bootcamp main channel
+
+Hi everyone, Thank you so much for your active participation during today's workshop. If you have any feedback for me please let me know! I want to ensure you're getting value from our discussions.
+
+I have a few announcements for you all regarding SolidRoad after chatting with their team today:
+
+## Context and Best Practices
+
+As I shared earlier, the weekly assignments are meant to be your practice for the final Behavioral Competency Capstone at the end of the bootcamp. Don't worry too much if you're not seeing the scores you want right away — this process is about practice and improvement.
+
+The AI personas will change; some may be "nicer" than others and less in a rush or more demanding — this is meant to simulate interactions with a diverse group of stakeholders. Also, please note that the AI and the general technology being used here is pretty new, so there may be a few hiccups along the way. Moving forward, you will have unlimited tries on your weekly assignments to familiarize yourself with the platform.
+
+To ensure that you're set up for success every time that you're doing the assignments, please make sure to check your internet connection and minimize all background noise, as this can confuse the AI.
+
+Embrace role play and improv! It may feel a bit uncomfortable right now, but role play is the foundation of these scenarios. It's ok to make things up as you go, although I'll do my best to build simulations that feel more natural.
+
+## Technical Support
+
+If you're having technical challenges that need to be actioned quickly, please reach out directly to the SolidRoad support team. They shared that their first-time reply time is under 2 hours. If possible, share a link and screenshot of your issue with them. You can reach them by clicking the "help" button in the bottom left corner of your screen within the SolidRoad app.
+
+## Practice Playground
+
+Great news: you can practice by taking any SolidRoad simulation in our library right now. Click on the "simulations" button in the top left corner of your screen in the SolidRoad app to see what's available.
+
+## First Assignment Details and Access Update
+Source: MC Elias (Program Staff), posted in the A3: AI Engineering Bootcamp main channel
+
+If you have not received SolidRoad access yet, it is because of a technical issue on the platform side. The team is working to get everyone on board as soon as possible and will post updates if there are significant delays.
+
+### First Assignment Structure
+- **Time allowed:** 45 minutes to complete three chat simulations
+- **Retakes:** You can retake the assignment up to 3 times
+- **Simulation 1:** Helping a colleague and fostering team collaboration
+- **Simulation 2:** Working with your technical team lead to investigate a system outage reported by a client
+- **Simulation 3:** Escalating a critical issue ahead of a client demo
+
+### Deadline
+The first behavioral competency assignment is due on **Thursday EOD** (extended from the original Wednesday deadline) to give participants a full three working days to complete it.
+
+---
+
+# SolidRoad Behavioral Assignments — Issues Reported by Course Participants
+Source: Student posts in the A3: AI Engineering Bootcamp channel
+
+The following are real issues and questions raised by participants in the Discourse channel regarding SolidRoad access and assignments.
+
+1. A participant reported that their SolidRoad sessions keep exiting unexpectedly and asked if others were experiencing the same issue.
+
+2. A participant flagged that the SolidRoad assignment (2 simulations) was due by 12th March and that they had not received an email notification about it — they only found it by browsing the platform directly. They shared this to ensure others did not miss it.
+
+3. A participant confirmed they now have access to SolidRoad after finding the invite email in their promotions tab. They also noted they had requested access to GitHub Copilot, which was the only remaining tool they did not have full access to.
+
+4. A participant reported being unable to understand the SolidRoad assignment because no instructions or context were provided within the platform.
+
+5. A participant reported that their dashboard was unresponsive, as well as a due date conflict between February 27th and February 28th. They attempted to complete and submit the assignment on February 28, but the reply button was not functioning on their end. They asked the technical team to please look into this issue and assist in resolving it!
+
+
+---
+
+# SolidRoad Behavioral Assignments — Participant Reflections and Experiences
+Source: Student posts in the A3: AI Engineering Bootcamp channel
+
+## Reflection 1 — Michael Ishola
+A participant completed their first behavioral assessment on SolidRoad and described the experience as eye-opening. Key lessons from the assessment centred around communication, product ownership, and business alignment. They noted that the simulation highlighted how important it is for engineers to think beyond technical execution and align their work with business outcomes. They invited others to share which soft skill they think engineers struggle with the most.
+
+## Reflection 2 — Anonymous Participant
+A participant shared a detailed reflection after completing two weeks of SolidRoad simulations:
+
+Week 1 felt closer to their technical comfort zone, particularly scenarios involving system downtime investigation and crisis management, where structured reasoning and architectural thinking were helpful.
+
+Week 2 was a different experience. The video-based simulations required communicating technical reasoning to non-technical stakeholders — a distinct skill from technical problem-solving itself. The participant noticed they were explaining things from an engineer's perspective when the situation called for a concise summary of the problem, its business impact, and the proposed next steps.
+
+The end-to-end feedback highlighted how critical clear communication is under time pressure. The participant found both weeks challenging and engaging, and noted that the simulations reflect situations many engineers face in real-world environments.
+
+They posed two questions to the cohort:
+- Which was more challenging — Week 1's chat simulations or Week 2's video simulations?
+- Did any feedback change how you approach communication or problem-solving?

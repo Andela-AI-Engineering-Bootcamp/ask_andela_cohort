@@ -1,0 +1,26 @@
+# Andela AI Engineering Bootcamp — Welcome and Resource Page
+Source: Program Staff, posted in the A3: AI Engineering Bootcamp resource space
+URL: https://community.andela.com/c/ai-engineering-bootcamps/100
+
+Welcome to your Andela AI Engineering Bootcamp resource space. Here you will find all the program resources. Bookmark the community page so you can always find your way back.
+
+## About the Program
+
+The AI Engineering Bootcamp is an elite training program designed for those seeking to excel in the best practices of building and shipping enterprise-grade AI-powered software. In this bootcamp, participants master advanced AI engineering skills, from building core LLM-powered applications to deploying RAG and agentic systems to production.
+
+The program is led by Ed Donner and Zion Pibowei, and supported by a team of training assistants (TAs). It is a 40-hour-per-week commitment over 10 weeks. The program equips participants with top-tier AI engineering skills that are in high demand across the world's top organisations.
+
+## What Is Expected of Participants
+
+- Show up to sessions. If you are unable to attend, inform your TA in advance.
+- Post your daily standup update. Your squad depends on consistent communication.
+- Ask for help when you are stuck. Struggling in silence slows progress.
+- Support others when you can. Teaching reinforces learning.
+- Commit to the work. This is a 40-hour-per-week program for 10 weeks — plan accordingly.
+
+## Getting Started
+
+- Attend the kickoff session to receive access to Course 1. The kickoff was scheduled for 18 February 2026, 8:30 PM – 9:30 PM IST.
+- Course 1 is the AI Engineer Core Track, available on Udemy: https://www.udemy.com/course/llm-engineering-master-ai-and-large-language-models/
+- Bookmark the Andela Community learning space: https://community.andela.com/c/ai-engineering-bootcamps/100 — it is also accessible from the left sidebar of the Andela Community at any time.
+- Begin learning once you have access.
