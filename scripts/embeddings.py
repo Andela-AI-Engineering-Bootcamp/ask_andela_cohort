@@ -6,7 +6,7 @@ class HFEmbeddings:
 
     def embed_documents(self, texts):
         embeddings = self.model.encode(texts, show_progress_bar=True)
-        # Convert numpy array to list of lists
+       
         return embeddings.tolist() if hasattr(embeddings, "tolist") else embeddings
 
     def embed_query(self, text):

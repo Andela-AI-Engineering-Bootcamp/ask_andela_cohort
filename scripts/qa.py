@@ -62,9 +62,4 @@ Answer:
         "source_documents": docs
     }
 
-    answer = query_llm(prompt)
-
-    return {
-        "result": answer,
-        "source_documents": docs
-    }
+    
