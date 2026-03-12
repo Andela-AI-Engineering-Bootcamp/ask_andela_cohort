@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "question": "When is the kickoff session for the AI Engineering Bootcamp?",
+    "difficulty": "basic",
+    "category": "logistics"
+  },
+  {
+    "id": 2,
+    "question": "How many weeks is the AI Engineering Bootcamp and what is the weekly time commitment?",
+    "difficulty": "basic",
+    "category": "logistics"
+  },
+  {
+    "id": 3,
+    "question": "What is SolidRoad and what is it used for in the bootcamp?",
+    "difficulty": "basic",
+    "category": "behavioral"
+  },
+  {
+    "id": 4,
+    "question": "On which days are behavioral assignments due?",
+    "difficulty": "basic",
+    "category": "logistics"
+  },
+  {
+    "id": 5,
+    "question": "What is the URL for the main AI Engineering Bootcamp resource space on Andela Community?",
+    "difficulty": "basic",
+    "category": "community"
+  },
+  {
+    "id": 6,
+    "question": "By what time must participants post their daily standup update?",
+    "difficulty": "basic",
+    "category": "logistics"
+  },
+  {
+    "id": 7,
+    "question": "What size dataset should groups use for RAG or fine-tuning in the group project?",
+    "difficulty": "basic",
+    "category": "data"
+  },
+  {
+    "id": 8,
+    "question": "Name the three focus areas groups can choose from for the capstone (RAG, open-source models, fine-tuning). Must groups use all three?",
+    "difficulty": "basic",
+    "category": "architecture"
+  },
+  {
+    "id": 9,
+    "question": "Which UI framework is recommended for the group project demo?",
+    "difficulty": "basic",
+    "category": "architecture"
+  },
+  {
+    "id": 10,
+    "question": "What licenses or tools do participants get during onboarding (e.g. Cursor, Copilot)?",
+    "difficulty": "basic",
+    "category": "logistics"
+  },
+  {
+    "id": 11,
+    "question": "Is production deployment required for the capstone project?",
+    "difficulty": "basic",
+    "category": "deliverables"
+  },
+  {
+    "id": 12,
+    "question": "Which course do participants start with and where is it hosted?",
+    "difficulty": "basic",
+    "category": "logistics"
+  },
+  {
+    "id": 13,
+    "question": "Explain the difference between chat channels and Spaces in the Andela Community and when to use each.",
+    "difficulty": "intermediate",
+    "category": "community"
+  },
+  {
+    "id": 14,
+    "question": "What are the six behavioral competencies scored in SolidRoad simulations, and what does B4 (Communication of Reasoning) mean in practice?",
+    "difficulty": "intermediate",
+    "category": "behavioral"
+  },
+  {
+    "id": 15,
+    "question": "How does the weekly schedule work for squad standups, deep dives, and office hours?",
+    "difficulty": "intermediate",
+    "category": "logistics"
+  },
+  {
+    "id": 16,
+    "question": "What are the core technical requirements for the group project—which focus areas must groups incorporate and what does each mean?",
+    "difficulty": "intermediate",
+    "category": "architecture"
+  },
+  {
+    "id": 17,
+    "question": "How are group projects evaluated? What are the five criteria and their weights?",
+    "difficulty": "intermediate",
+    "category": "deliverables"
+  },
+  {
+    "id": 18,
+    "question": "What is expected of participants to successfully graduate from the program?",
+    "difficulty": "intermediate",
+    "category": "deliverables"
+  },
+  {
+    "id": 19,
+    "question": "When are squads reshuffled during the bootcamp, and does your TA change when that happens?",
+    "difficulty": "intermediate",
+    "category": "community"
+  },
+  {
+    "id": 20,
+    "question": "What does RAG mean in the project guidelines—what steps does it involve (ingest, retrieve, etc.)?",
+    "difficulty": "intermediate",
+    "category": "architecture"
+  },
+  {
+    "id": 21,
+    "question": "What topics does Week 1 cover regarding LLMs and RAG (e.g. vector embeddings, Gradio)?",
+    "difficulty": "intermediate",
+    "category": "embeddings"
+  },
+  {
+    "id": 22,
+    "question": "What does the program say about using HuggingFace and open-source models in the group project?",
+    "difficulty": "intermediate",
+    "category": "models"
+  },
+  {
+    "id": 23,
+    "question": "How does peer review work—is it graded numerically or pass/fail, and what is the point of it?",
+    "difficulty": "intermediate",
+    "category": "deliverables"
+  },
+  {
+    "id": 24,
+    "question": "What forms can SolidRoad simulations take (chat, video, audio) and what are example scenarios?",
+    "difficulty": "intermediate",
+    "category": "behavioral"
+  },
+  {
+    "id": 25,
+    "question": "What are the squad channel names and where do participants post daily standups?",
+    "difficulty": "intermediate",
+    "category": "community"
+  },
+  {
+    "id": 26,
+    "question": "Compare the three types of deliverables—group projects, peer review, and the capstone—and explain how each is assessed.",
+    "difficulty": "advanced",
+    "category": "deliverables"
+  },
+  {
+    "id": 27,
+    "question": "If I am stuck on something, what is the recommended order of steps to get help according to the community map and program resources?",
+    "difficulty": "advanced",
+    "category": "community"
+  },
+  {
+    "id": 28,
+    "question": "Using the program expectations and group project guidelines, what are the scope constraints for the capstone (dataset size, deployment, API costs) and how do they differ from a production project?",
+    "difficulty": "advanced",
+    "category": "architecture"
+  },
+  {
+    "id": 29,
+    "question": "What is the squad lead's role for daily updates—what must they create, by when, and what should the summary include?",
+    "difficulty": "advanced",
+    "category": "logistics"
+  },
+  {
+    "id": 30,
+    "question": "How do the SolidRoad assignment schedule, retake policy, and technical support work together? When should I contact SolidRoad support versus my TA?",
+    "difficulty": "advanced",
+    "category": "behavioral"
+  },
+  {
+    "id": 31,
+    "question": "Trace the path from Week 0 through Week 3: what do participants do in onboarding, and what content and deliverables are covered in Weeks 1–3?",
+    "difficulty": "advanced",
+    "category": "logistics"
+  },
+  {
+    "id": 32,
+    "question": "What tools and platforms does the bootcamp provide (e.g. Cursor, Copilot, SolidRoad), and how do they fit into the learning and assessment structure?",
+    "difficulty": "advanced",
+    "category": "logistics"
+  },
+  {
+    "id": 33,
+    "question": "How do the program phases (Core, Agentic, Production, Capstone) map to weeks and what content or deliverables belong to each?",
+    "difficulty": "advanced",
+    "category": "architecture"
+  },
+  {
+    "id": 34,
+    "question": "What are the quality benchmarks for a strong vs weak group project submission (e.g. RAG use, HuggingFace choice, fine-tuning evaluation)?",
+    "difficulty": "advanced",
+    "category": "deliverables"
+  },
+  {
+    "id": 35,
+    "question": "Week 2 covers advanced RAG and fine-tuning (including QLoRA). How does that connect to the group project focus areas and what must a project demonstrate?",
+    "difficulty": "advanced",
+    "category": "models"
+  },
+  {
+    "id": 36,
+    "question": "What constraints apply to data and models in the capstone—dataset size, pre-trained only, API spend—and why are they in place?",
+    "difficulty": "advanced",
+    "category": "data"
+  },
+  {
+    "id": 37,
+    "question": "Describe the difference between RAG (vector store, retrieve chunks, feed to LLM) and the other two focus areas (HuggingFace, fine-tuning/QLoRA) as defined in the project guidelines.",
+    "difficulty": "advanced",
+    "category": "embeddings"
+  },
+  {
+    "id": 38,
+    "question": "What example niches are suggested for the group project (e.g. legal RAG, customer support, medical FAQ) and what makes a strong vs vague use case?",
+    "difficulty": "advanced",
+    "category": "architecture"
+  },
+  {
+    "id": 39,
+    "question": "How many people are in a squad, how is the squad leader chosen, and what are the squad leader's responsibilities for threads and TA check-ins?",
+    "difficulty": "advanced",
+    "category": "community"
+  },
+  {
+    "id": 40,
+    "question": "What best practices does the program recommend before starting a SolidRoad session (internet, noise, role play), and what is the Soft Skills Learning Path?",
+    "difficulty": "advanced",
+    "category": "behavioral"
+  }
+]

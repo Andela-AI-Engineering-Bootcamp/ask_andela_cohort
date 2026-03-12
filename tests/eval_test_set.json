@@ -1,0 +1,128 @@
+[
+    {
+    "id": 1,
+    "question": "What is RAG and why do we use it in this course?",
+    "category": "RAG concept",
+    "expected_points": [
+    "retrieval augmented generation",
+    "vector store",
+    "context documents"
+    ]
+    },
+    
+    {
+    "id": 2,
+    "question": "What is the purpose of chunking documents in the RAG pipeline?",
+    "category": "RAG pipeline",
+    "expected_points": [
+    "split documents",
+    "improve retrieval accuracy",
+    "embedding efficiency"
+    ]
+    },
+    
+    {
+    "id": 3,
+    "question": "Which vector database does the cohort project use?",
+    "category": "course tools",
+    "expected_points": [
+    "ChromaDB",
+    "local vector store"
+    ]
+    },
+    
+    {
+    "id": 4,
+    "question": "What embedding model are we using in the course projects?",
+    "category": "embeddings",
+    "expected_points": [
+    "all-MiniLM-L6-v2",
+    "sentence-transformers"
+    ]
+    },
+    
+    {
+    "id": 5,
+    "question": "What is QLoRA and why is it useful for fine-tuning?",
+    "category": "fine tuning",
+    "expected_points": [
+    "parameter efficient fine tuning",
+    "low rank adapters",
+    "reduced memory usage"
+    ]
+    },
+    
+    {
+    "id": 6,
+    "question": "Which small open source models are recommended for this project?",
+    "category": "models",
+    "expected_points": [
+    "Qwen",
+    "Phi"
+    ]
+    },
+    
+    {
+    "id": 7,
+    "question": "What is the expected deliverable for the capstone project?",
+    "category": "project logistics",
+    "expected_points": [
+    "working demo",
+    "gradio interface",
+    "live presentation"
+    ]
+    },
+    
+    {
+    "id": 8,
+    "question": "Do we need to deploy our project to production for the capstone?",
+    "category": "logistics",
+    "expected_points": [
+    "no production deployment",
+    "local demo only"
+    ]
+    },
+    
+    {
+    "id": 9,
+    "question": "Where should the vector store run for this project?",
+    "category": "architecture",
+    "expected_points": [
+    "local machine",
+    "chromadb"
+    ]
+    },
+    
+    {
+    "id": 10,
+    "question": "What role does Gradio play in the project?",
+    "category": "tools",
+    "expected_points": [
+    "user interface",
+    "input question",
+    "display ai response"
+    ]
+    },
+    
+    {
+    "id": 11,
+    "question": "What is the purpose of embeddings in a RAG system?",
+    "category": "embeddings",
+    "expected_points": [
+    "convert text to vectors",
+    "similarity search",
+    "retrieval"
+    ]
+    },
+    
+    {
+    "id": 12,
+    "question": "What type of documents are ingested into the RAG system?",
+    "category": "data",
+    "expected_points": [
+    "course pdfs",
+    "slides",
+    "discourse threads"
+    ]
+    }
+    ]
