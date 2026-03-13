@@ -27,7 +27,7 @@ if not OPENROUTER_API_KEY:
 # Experiment with llama-3.1-8b-instruct and qwen-2.5-72b-instruct produced slow and 
 # sub-par results, hence the choice of gemini-2.0-flash-lite.
 # Upgrading to the paid models will increase the cost of the RAG pipeline.
-LLM_MODEL = "google/gemini-2.5-flash-lite"
+LLM_MODEL = "qwen/qwen-2.5-72b-instruct"
 
 # Embedding - bge-small-en-v1.5 is the same size as all-MiniLM-L6-v2 (384-dim,
 # same speed & memory) but trained for asymmetric retrieval (question -> passage)
