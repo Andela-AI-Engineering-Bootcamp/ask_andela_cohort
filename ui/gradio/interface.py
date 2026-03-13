@@ -18,7 +18,7 @@ EXAMPLES = [
     "What is RAG and why do we use it?",
     "What is QLoRA and why is it used for fine-tuning?",
     "What are the capstone project submission requirements?",
-    "How does ChromaDB store and retrieve embeddings?",
+    "What is the format of submitting daily updates?",
     "What model should I use for fine-tuning on Google Colab?",
     "When are behavioral assignments due?",
 ]
@@ -34,18 +34,23 @@ def build(collection: chromadb.Collection) -> gr.Blocks:
         if not question:
             return history, "", ""
 
-        history = history + [{"role": "user", "content": question}]
+        # Capture history *before* the current question so the pipeline can
+        # use prior turns for retrieval contextualization and LLM context.
+        prior_history = history
 
         try:
-            result = ask_andela(question, collection)
+            result = ask_andela(question, collection, history=prior_history)
             reply = result["answer"]
             sources = "\n".join(f"- {s}" for s in result["sources"])
-            sources_md = f"**Sources**\n{sources}" if sources else ""
+            sources_md = f"{sources}" if sources else ""
         except Exception as exc:
             reply = f"Something went wrong: {exc}"
             sources_md = ""
 
-        history = history + [{"role": "assistant", "content": reply}]
+        history = history + [
+            {"role": "user",      "content": question},
+            {"role": "assistant", "content": reply},
+        ]
         return history, "", sources_md
 
     def clear_chat() -> tuple[list, str, str]:

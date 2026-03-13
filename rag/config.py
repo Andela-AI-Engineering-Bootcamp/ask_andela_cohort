@@ -24,14 +24,17 @@ if not OPENROUTER_API_KEY:
     )
 
 # ── Models ────────────────────────────────────────────────────────────────────
-# Free-tier options on OpenRouter (no billing required):
-#   "meta-llama/llama-3.1-8b-instruct"
-#   "qwen/qwen-2.5-7b-instruct"
-#   "mistralai/mistral-7b-instruct"
-# Better quality (paid, still cheap):
-#   "openai/gpt-4o-mini"   "anthropic/claude-3-haiku"
-LLM_MODEL       = "meta-llama/llama-3.1-8b-instruct"
-EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
+# Experiment with llama-3.1-8b-instruct and qwen-2.5-72b-instruct produced slow and 
+# sub-par results, hence the choice of gemini-2.0-flash-lite.
+# Upgrading to the paid models will increase the cost of the RAG pipeline.
+LLM_MODEL = "google/gemini-2.5-flash-lite"
+
+# Embedding — bge-small-en-v1.5 is the same size as all-MiniLM-L6-v2 (384-dim,
+# same speed & memory) but trained for asymmetric retrieval (question→passage)
+# rather than symmetric sentence similarity, so it scores topically-related but
+# differently-phrased content much higher.
+# ⚠ Changing this requires re-running ingest.py to rebuild the ChromaDB vectors.
+EMBEDDING_MODEL = "BAAI/bge-small-en-v1.5"
 
 # ── Vector store ──────────────────────────────────────────────────────────────
 COLLECTION_NAME = "ask_andela"
@@ -41,4 +44,9 @@ CHUNK_SIZE    = 400   # tokens
 CHUNK_OVERLAP = 50    # tokens
 
 # ── Retrieval ─────────────────────────────────────────────────────────────────
-TOP_K = 5
+TOP_K               = 8     # fetch more chunks; broad questions span multiple sources
+RELEVANCE_THRESHOLD = 0.25  # drop chunks below this cosine similarity to reduce noise
+# BGE models score asymmetric retrieval (question→passage) accurately enough
+# that 0.25 is a reliable signal.  With the old all-MiniLM-L6-v2 model this had
+# to be lowered to 0.15 because STS-trained models under-score valid passages.
+MAX_HISTORY_TURNS   = 3     # conversation turns (user+assistant pairs) sent to LLM
