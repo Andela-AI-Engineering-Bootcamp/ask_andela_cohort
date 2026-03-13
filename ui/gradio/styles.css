@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  --andela-green: #2DC56E;
+  --green-dark:   #1fa054;
+  --green-glow:   rgba(45, 197, 110, 0.18);
+  --surface:      #0f1117;
+  --card:         #1a1d27;
+  --border:       #252836;
+  --text:         #f0f2f5;
+  --muted:        #7c8493;
+}
+
+body,
+.gradio-container {
+  background: var(--surface) !important;
+  color: var(--text) !important;
+  font-family: 'Inter', sans-serif !important;
+}
+
+#andela-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2.2rem 1rem 1rem;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 1.2rem;
+}
+#andela-header img {
+  height: 40px;
+  margin-bottom: 0.75rem;
+  filter: brightness(0) invert(1);
+}
+#andela-header h1 {
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin: 0;
+  color: var(--andela-green);
+  letter-spacing: -0.3px;
+}
+#andela-header p {
+  color: var(--muted);
+  margin: 0.3rem 0 0;
+  font-size: 0.9rem;
+}
+
+#chatbot {
+  border-radius: 14px !important;
+  border: 1px solid var(--border) !important;
+  background: var(--card) !important;
+}
+#chatbot .message.user {
+  background: var(--andela-green) !important;
+  color: #fff !important;
+  border-radius: 16px 16px 4px 16px !important;
+  font-size: 0.93rem;
+}
+#chatbot .message.bot {
+  background: #252836 !important;
+  color: var(--text) !important;
+  border-radius: 16px 16px 16px 4px !important;
+  font-size: 0.93rem;
+}
+
+#sources-panel {
+  background: var(--card) !important;
+  border: 1px solid var(--border) !important;
+  border-radius: 14px !important;
+  padding: 1rem 1.1rem !important;
+  font-size: 0.86rem;
+  min-height: 80px;
+}
+#sources-label {
+  color: var(--andela-green);
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  margin-bottom: 0.5rem;
+}
+
+#question-box textarea {
+  background: var(--card) !important;
+  border: 1px solid var(--border) !important;
+  border-radius: 12px !important;
+  color: var(--text) !important;
+  font-size: 0.94rem !important;
+  font-family: 'Inter', sans-serif !important;
+}
+#question-box textarea:focus {
+  border-color: var(--andela-green) !important;
+  box-shadow: 0 0 0 3px var(--green-glow) !important;
+}
+
+#ask-btn {
+  background: var(--andela-green) !important;
+  border: none !important;
+  border-radius: 12px !important;
+  color: #fff !important;
+  font-weight: 600 !important;
+  font-size: 0.95rem !important;
+  min-height: 52px !important;
+  transition: background 0.2s;
+}
+#ask-btn:hover {
+  background: var(--green-dark) !important;
+}
+
+#clear-btn {
+  border-radius: 12px !important;
+  border: 1px solid var(--border) !important;
+  background: transparent !important;
+  color: var(--muted) !important;
+  min-height: 52px !important;
+}
+#clear-btn:hover {
+  border-color: var(--andela-green) !important;
+  color: var(--andela-green) !important;
+}
+
+.gr-examples button {
+  background: var(--card) !important;
+  border: 1px solid var(--border) !important;
+  border-radius: 20px !important;
+  color: var(--muted) !important;
+  font-size: 0.8rem !important;
+  padding: 4px 12px !important;
+}
+.gr-examples button:hover {
+  border-color: var(--andela-green) !important;
+  color: var(--andela-green) !important;
+}
+
+#footer {
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.75rem;
+  padding: 1.5rem 0 0.5rem;
+  border-top: 1px solid var(--border);
+  margin-top: 1rem;
+}
+#footer span {
+  color: var(--andela-green);
+  font-weight: 600;
+}
