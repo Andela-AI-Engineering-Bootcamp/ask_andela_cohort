@@ -17,33 +17,56 @@ Ask Andela is a RAG-powered assistant grounded in the cohort's own Discourse cha
 ## Architecture
 
 ```mermaid
-flowchart TD
-    User(["👤 User\nGradio UI"])
-    User -->|"question"| Embed
+flowchart LR
+    %% Core User Input
+    User(["👤 User Input"])
 
-    subgraph retrieval["Retrieval  ·  rag/retrieval.py"]
-        Embed["Embed query\nBAAI/bge-small-en-v1.5\n384-dim vector"]
-        Embed --> DB
-        DB[("ChromaDB\nlocal · SQLite\n44 chunks")]
-        DB --> Filter
-        Filter["Filter & rank\ntop-8 · cosine sim ≥ 0.25"]
+    %% Retrieval Pipeline
+    subgraph Retrieval ["🔍 Retrieval Pipeline"]
+        direction TB
+        Embed["🧠 Embed Query<br/>(BAAI/bge-small-en-v1.5)"]
+        DB[("🗄️ ChromaDB<br/>(Local SQLite · 44 chunks)")]
+        Filter["⚙️ Filter and Rank<br/>(Top-8 · cosine sim ≥ 0.25)"]
+        
+        Embed ==> DB ==> Filter
     end
 
-    Filter -->|"① sources event\n(before first token)"| SourcesPanel
-
-    subgraph generation["Generation  ·  rag/llm.py"]
-        Filter --> Prompt
-        Prompt["Assemble messages\nsystem prompt\n+ 3-turn history\n+ retrieved context\n+ question"]
-        Prompt --> LLM
-        LLM["Qwen 2.5 72B\nvia OpenRouter\nstream=True"]
+    %% Generation Pipeline
+    subgraph Generation ["⚡ Generation Pipeline"]
+        direction TB
+        Prompt["📝 Assemble Prompt<br/>(System + History + Context)"]
+        LLM{{"🤖 Qwen 2.5 72B<br/>(OpenRouter · stream=True)"}}
+        
+        Prompt ==> LLM
     end
 
-    LLM -->|"② token deltas\n(word-by-word)"| ChatWindow
-
-    subgraph ui["Gradio UI  ·  ui/gradio/interface.py"]
-        SourcesPanel["📄 Sources panel"]
-        ChatWindow["💬 Chat window"]
+    %% Output UI
+    subgraph UI ["🖥️ Gradio Interface"]
+        direction TB
+        SourcesPanel["📄 Sources Panel<br/>(Document Citations)"]
+        ChatWindow["💬 Chat Window<br/>(AI Response)"]
     end
+
+    %% Data Flow Edges
+    User ==>|"① Question"| Embed
+    Filter ==>|"② Pass Context"| Prompt
+    
+    %% Async / UI Updates
+    Filter -.->|"③ Sources Event<br/>(Before generation)"| SourcesPanel
+    LLM -.->|"④ Stream Tokens<br/>(Word-by-word delta)"| ChatWindow
+
+    %% Professional Styling (Tailwind Palette)
+    classDef default fill:transparent,stroke:#64748b,stroke-width:2px,color:inherit;
+    classDef startNode fill:#3b82f6,stroke:#2563eb,stroke-width:2px,color:#ffffff;
+    classDef dbNode fill:#10b981,stroke:#059669,stroke-width:2px,color:#ffffff;
+    classDef llmNode fill:#8b5cf6,stroke:#7c3aed,stroke-width:2px,color:#ffffff;
+    classDef uiNode fill:#f59e0b,stroke:#d97706,stroke-width:2px,color:#ffffff;
+
+    %% Apply Classes
+    class User startNode;
+    class DB dbNode;
+    class LLM llmNode;
+    class SourcesPanel,ChatWindow uiNode;
 ```
 
 The pipeline has two streaming phases: retrieval completes first and fires a `sources` event so citations appear immediately; the LLM then streams token deltas into the chat window word-by-word. Both paths are orchestrated by `stream_andela()` in `rag/pipeline.py`.
