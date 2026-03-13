@@ -51,7 +51,7 @@ def build(collection: chromadb.Collection) -> gr.Blocks:
     def clear_chat() -> tuple[list, str, str]:
         return [], "", ""
 
-    with gr.Blocks(title="Ask Andela") as demo:
+    with gr.Blocks(title="Ask Andela", css=STYLES_CSS) as demo:
 
         gr.HTML(f"""
             <div id="andela-header">
@@ -65,6 +65,7 @@ def build(collection: chromadb.Collection) -> gr.Blocks:
             with gr.Column(scale=3):
                 chatbot = gr.Chatbot(
                     elem_id="chatbot",
+                    type="messages",
                     height=480,
                     show_label=False,
                     avatar_images=(None, ANDELA_LOGO),
