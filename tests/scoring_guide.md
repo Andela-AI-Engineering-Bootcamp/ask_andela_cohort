@@ -48,3 +48,47 @@ The **total score** is the sum of the three criteria:
 
 - **Maximum score = 9** (3 + 3 + 3).
 - Results are stored in `results.csv` with one row per question and model type (e.g. Base model, Fine tuned model, Fine tuned + RAG model).
+
+---
+
+## How to test and see accuracy results
+
+**1. Run unit tests (pytest)**  
+From the project root:
+
+```bash
+python -m pytest tests/scoring.py -v
+```
+
+This runs all scoring tests and confirms that `keyword_score`, `accuracy_score`, `conciseness_score`, `specificity_score`, and `total_score` behave as specified.
+
+**2. Run the scoring demo**  
+To see accuracy (and specificity, conciseness, total) printed for sample answers:
+
+```bash
+python tests/run_scoring_demo.py
+```
+
+The demo uses the first question from `tests/eval_test_set.json` and three sample answers (strong, partial, weak). For each answer it prints:
+
+- `keyword_score` (0–1): fraction of expected keywords found  
+- `accuracy` (1–3): derived from keyword_score  
+- `specificity` (1–3): course terms (ChromaDB, Gradio, RAG, etc.)  
+- `conciseness` (1–3): word count  
+- `total` (3–9): accuracy + specificity + conciseness  
+
+**3. Score your own answers**  
+Use the functions in code after getting answers from your RAG pipeline or baseline:
+
+```python
+from rag.scoring import accuracy_score, specificity_score, conciseness_score, total_score
+
+expected_points = ["vector store", "retrieval", "context documents"]
+answer = "Your model's answer here."
+
+acc = accuracy_score(answer, expected_points)
+spec = specificity_score(answer)
+conc = conciseness_score(answer)
+total = total_score(acc, spec, conc)
+print(f"Accuracy: {acc}, Total: {total}/9")
+```
