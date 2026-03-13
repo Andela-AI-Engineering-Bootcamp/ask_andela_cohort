@@ -36,7 +36,7 @@ def main() -> None:
     print(f"\n[3/3] Building vector store at {CHROMA_DIR} ...")
     build_vectorstore(chunks, CHROMA_DIR)
 
-    print("\n✓  Done. Run `python scripts/app.py` to start the UI.")
+    print("\n✓  Done. Run `python app.py` to start the UI.")
 
 
 if __name__ == "__main__":
