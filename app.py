@@ -10,7 +10,7 @@ import argparse
 
 from rag.config import CHROMA_DIR
 from rag.vectorstore import load_vectorstore
-from ui.gradio.interface import build, STYLES_CSS
+from ui.gradio.interface import build
 
 try:
     collection = load_vectorstore(CHROMA_DIR)
@@ -26,4 +26,4 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--share", action="store_true", help="Public Gradio link")
     args = parser.parse_args()
-    demo.launch(share=args.share, css=STYLES_CSS)
+    demo.launch(share=args.share)
