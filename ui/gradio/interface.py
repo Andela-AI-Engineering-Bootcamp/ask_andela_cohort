@@ -10,7 +10,7 @@ from pathlib import Path
 import chromadb
 import gradio as gr
 
-from rag.pipeline import ask_andela
+from rag.pipeline import stream_andela
 
 STYLES_CSS = (Path(__file__).parent / "styles.css").read_text()
 
@@ -29,29 +29,60 @@ ANDELA_LOGO = "https://cdn.worldvectorlogo.com/logos/andela.svg"
 def build(collection: chromadb.Collection) -> gr.Blocks:
     """Return the fully wired Gradio Blocks app."""
 
-    def chat(question: str, history: list[dict]) -> tuple[list[dict], str, str]:
+    def chat(question: str, history: list[dict]):
+        """
+        Streaming chat handler — yields partial UI state on every token.
+
+        Phases:
+            1. "sources" event: retrieval is done; populate the sources panel
+               and open an empty assistant bubble immediately.
+            2. "token" events: append each delta to the assistant bubble
+               so the user sees the answer build word by word.
+        """
         question = question.strip()
         if not question:
-            return history, "", ""
+            yield history, "", ""
+            return
 
-        # Capture history *before* the current question so the pipeline can
-        # use prior turns for retrieval contextualization and LLM context.
-        prior_history = history
+        prior_history = list(history)
+        sources_md = ""
+        partial_reply = ""
 
         try:
-            result = ask_andela(question, collection, history=prior_history)
-            reply = result["answer"]
-            sources = "\n".join(f"- {s}" for s in result["sources"])
-            sources_md = f"{sources}" if sources else ""
+            for event in stream_andela(question, collection, history=prior_history):
+                if event["type"] == "sources":
+                    sources_md = (
+                        "\n".join(f"- {s}" for s in event["sources"])
+                        if event["sources"] else ""
+                    )
+                    # Clear the input box and open the assistant bubble immediately
+                    yield (
+                        prior_history + [
+                            {"role": "user",      "content": question},
+                            {"role": "assistant", "content": ""},
+                        ],
+                        "",
+                        sources_md,
+                    )
+                else:
+                    partial_reply += event["token"]
+                    yield (
+                        prior_history + [
+                            {"role": "user",      "content": question},
+                            {"role": "assistant", "content": partial_reply},
+                        ],
+                        "",
+                        sources_md,
+                    )
         except Exception as exc:
-            reply = f"Something went wrong: {exc}"
-            sources_md = ""
-
-        history = history + [
-            {"role": "user",      "content": question},
-            {"role": "assistant", "content": reply},
-        ]
-        return history, "", sources_md
+            yield (
+                prior_history + [
+                    {"role": "user",      "content": question},
+                    {"role": "assistant", "content": f"Something went wrong: {exc}"},
+                ],
+                "",
+                "",
+            )
 
     def clear_chat() -> tuple[list, str, str]:
         return [], "", ""
@@ -62,7 +93,7 @@ def build(collection: chromadb.Collection) -> gr.Blocks:
             <div id="andela-header">
                 <img src="{ANDELA_LOGO}" alt="Andela" onerror="this.style.display='none'">
                 <h1>Ask Andela</h1>
-                <p>Your AI study assistant for the A3 AI Engineering Bootcamp</p>
+                <p>Your Cohort's Single Source of Truth</p>
             </div>
         """)
 
@@ -98,7 +129,7 @@ def build(collection: chromadb.Collection) -> gr.Blocks:
         gr.HTML("""
             <div id="footer">
                 Powered by <span>OpenRouter</span> &nbsp;|&nbsp;
-                Embeddings: all-MiniLM-L6-v2 &nbsp;|&nbsp;
+                Embeddings: <span>BAAI/bge-small-en-v1.5</span> &nbsp;|&nbsp;
                 Vector store: <span>ChromaDB</span>
             </div>
         """)
@@ -112,4 +143,5 @@ def build(collection: chromadb.Collection) -> gr.Blocks:
         question_box.submit(**shared)
         clear_btn.click(fn=clear_chat, outputs=[chatbot, question_box, sources_panel])
 
+    demo.queue()
     return demo

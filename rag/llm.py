@@ -5,9 +5,12 @@ OpenRouter is a unified gateway to 200+ models. We use the standard OpenAI SDK
 client pointing base_url at OpenRouter - no extra dependencies needed.
 
 Public API:
-    generate_answer(query, context_chunks, history)  ->  str   (RAG answer)
-    baseline_answer(question)                        ->  str   (no-context answer for eval)
+    generate_answer(query, context_chunks, history)  ->  str            (RAG answer, blocking)
+    stream_answer(query, context_chunks, history)    ->  Iterator[str]  (RAG answer, streaming)
+    baseline_answer(question)                        ->  str            (no-context answer for eval)
 """
+from collections.abc import Iterator
+
 from openai import OpenAI
 
 from .config import OPENROUTER_API_KEY, LLM_MODEL, MAX_HISTORY_TURNS
@@ -83,6 +86,25 @@ def build_rag_prompt(query: str, context_chunks: list[dict]) -> str:
 
 # ── Generation ────────────────────────────────────────────────────────────────
 
+_EXTRA_HEADERS = {
+    "HTTP-Referer": "https://github.com/ask-andela",
+    "X-Title":      "Ask Andela",
+}
+
+
+def _build_messages(
+    query: str,
+    context_chunks: list[dict],
+    history: list[dict] | None,
+) -> list[dict]:
+    """Assemble the full message list: system prompt + history window + RAG user turn."""
+    messages: list[dict] = [{"role": "system", "content": SYSTEM_PROMPT}]
+    if history:
+        messages.extend(history[-(MAX_HISTORY_TURNS * 2):])
+    messages.append({"role": "user", "content": build_rag_prompt(query, context_chunks)})
+    return messages
+
+
 def generate_answer(
     query: str,
     context_chunks: list[dict],
@@ -92,33 +114,47 @@ def generate_answer(
     max_tokens: int = 1024,
 ) -> str:
     """
-    Call the OpenRouter LLM with RAG context and conversation history.
-
-    Prior conversation turns are injected between the system prompt and the
-    current RAG prompt so the model can resolve follow-up questions and
-    ambiguous references without losing context.
+    Call the OpenRouter LLM with RAG context and conversation history (blocking).
+    Used by evaluate.py and the baseline comparison.
     """
-    messages: list[dict] = [{"role": "system", "content": SYSTEM_PROMPT}]
-
-    # Inject recent conversation so the LLM can resolve follow-ups
-    if history:
-        # Keep the last N user+assistant pairs (2 messages per turn)
-        recent = history[-(MAX_HISTORY_TURNS * 2):]
-        messages.extend(recent)
-
-    messages.append({"role": "user", "content": build_rag_prompt(query, context_chunks)})
-
     response = _get_client().chat.completions.create(
         model=model,
-        messages=messages,
+        messages=_build_messages(query, context_chunks, history),
         temperature=temperature,
         max_tokens=max_tokens,
-        extra_headers={
-            "HTTP-Referer": "https://github.com/ask-andela",
-            "X-Title":      "Ask Andela",
-        },
+        extra_headers=_EXTRA_HEADERS,
     )
     return response.choices[0].message.content.strip()
+
+
+def stream_answer(
+    query: str,
+    context_chunks: list[dict],
+    model: str = LLM_MODEL,
+    history: list[dict] | None = None,
+    temperature: float = 0.3,
+    max_tokens: int = 1024,
+) -> Iterator[str]:
+    """
+    Stream the LLM response token by token (non-blocking).
+    Yields each text delta as it arrives from OpenRouter.
+    Used by the Gradio UI for live token-by-token rendering.
+    """
+    with _get_client().chat.completions.create(
+        model=model,
+        messages=_build_messages(query, context_chunks, history),
+        temperature=temperature,
+        max_tokens=max_tokens,
+        stream=True,
+        extra_headers=_EXTRA_HEADERS,
+    ) as stream:
+        for chunk in stream:
+            # Some chunks (role-only, [DONE] sentinel) arrive with empty choices
+            if not chunk.choices:
+                continue
+            delta = chunk.choices[0].delta.content
+            if delta:
+                yield delta
 
 
 def baseline_answer(question: str, model: str = LLM_MODEL) -> str:
