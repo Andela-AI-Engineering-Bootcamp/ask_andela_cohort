@@ -213,8 +213,8 @@ Results schema per question:
 - [x] RAG pipeline (ChromaDB + OpenRouter)
 - [x] Gradio UI with source citations
 - [x] Evaluation harness (Baseline vs RAG)
-- [ ] QLoRA fine-tuning on cohort Q&A pairs (Qwen2.5-0.5B / Phi-3-mini, Google Colab T4)
-- [ ] Fine-tuned adapter integration (`scripts/finetune.py`)
+- [x] Small fine-tuning dataset (`data/finetune_dataset.jsonl`) and QLoRA script (`scripts/finetune_qlora.py`)
+- [x] Fine-tuned adapter integration with RAG pipeline (load PEFT adapter in `rag/llm.py` or separate endpoint)
 - [ ] Three-way eval comparison for demo (Baseline → RAG → Fine-tuned+RAG)
 
 ---
