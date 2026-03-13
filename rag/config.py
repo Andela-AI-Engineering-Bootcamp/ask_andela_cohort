@@ -1,5 +1,5 @@
 """
-Central configuration — all constants, paths, and env vars live here.
+Central configuration - all constants, paths, and env vars live here.
 Every other module imports from this file; nothing else calls load_dotenv().
 """
 import os
@@ -29,11 +29,11 @@ if not OPENROUTER_API_KEY:
 # Upgrading to the paid models will increase the cost of the RAG pipeline.
 LLM_MODEL = "google/gemini-2.5-flash-lite"
 
-# Embedding — bge-small-en-v1.5 is the same size as all-MiniLM-L6-v2 (384-dim,
-# same speed & memory) but trained for asymmetric retrieval (question→passage)
+# Embedding - bge-small-en-v1.5 is the same size as all-MiniLM-L6-v2 (384-dim,
+# same speed & memory) but trained for asymmetric retrieval (question -> passage)
 # rather than symmetric sentence similarity, so it scores topically-related but
 # differently-phrased content much higher.
-# ⚠ Changing this requires re-running ingest.py to rebuild the ChromaDB vectors.
+# NOTE: Changing this requires re-running ingest.py to rebuild the ChromaDB vectors.
 EMBEDDING_MODEL = "BAAI/bge-small-en-v1.5"
 
 # ── Vector store ──────────────────────────────────────────────────────────────
@@ -46,7 +46,7 @@ CHUNK_OVERLAP = 50    # tokens
 # ── Retrieval ─────────────────────────────────────────────────────────────────
 TOP_K               = 8     # fetch more chunks; broad questions span multiple sources
 RELEVANCE_THRESHOLD = 0.25  # drop chunks below this cosine similarity to reduce noise
-# BGE models score asymmetric retrieval (question→passage) accurately enough
+# BGE models score asymmetric retrieval (question -> passage) accurately enough
 # that 0.25 is a reliable signal.  With the old all-MiniLM-L6-v2 model this had
 # to be lowered to 0.15 because STS-trained models under-score valid passages.
 MAX_HISTORY_TURNS   = 3     # conversation turns (user+assistant pairs) sent to LLM

@@ -25,7 +25,7 @@ def retrieve(
     filtered by relevance threshold.
 
     `history` is accepted for interface compatibility but intentionally
-    not used in the embedding step — injecting prior turns into the query
+    not used in the embedding step - injecting prior turns into the query
     vector causes topic bleed when the user switches subjects mid-chat
     (e.g. prior "2-day group project" turns contaminating a "final project"
     retrieval).  Conversation context is handled by the LLM instead.
@@ -36,10 +36,10 @@ def retrieve(
     Each result dict:
         {
             "content":         str,    # raw chunk text
-            "source":          str,    # source filename — used as citation
-            "category":        str,    # discourse_channel | course_resource | …
+            "source":          str,    # source filename - used as citation
+            "category":        str,    # discourse_channel | course_resource | ...
             "chunk_index":     int,
-            "relevance_score": float   # 0–1 cosine similarity, higher = better
+            "relevance_score": float   # 0-1 cosine similarity, higher = better
         }
     """
     results = collection.query(

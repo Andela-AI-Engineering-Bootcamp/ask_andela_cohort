@@ -1,4 +1,4 @@
-# Ask Andela — RAG pipeline package
+# Ask Andela - RAG pipeline package
 from .pipeline import ask_andela
 from .vectorstore import build_vectorstore, load_vectorstore
 

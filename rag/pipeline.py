@@ -1,7 +1,7 @@
 """
-Full RAG pipeline — the single public function the UI and eval scripts call.
+Full RAG pipeline - the single public function the UI and eval scripts call.
 
-    ask_andela(query, collection) → {"answer", "sources", "context_chunks"}
+    ask_andela(query, collection) -> {"answer", "sources", "context_chunks"}
 """
 import chromadb
 

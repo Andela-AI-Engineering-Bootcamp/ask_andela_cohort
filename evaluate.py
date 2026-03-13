@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Evaluation runner — compares Baseline vs RAG on 12 held-out questions.
+Evaluation runner - compares Baseline vs RAG on 12 held-out questions.
 
 Outputs eval_results.json at the project root with columns for all three
 comparison tiers (baseline / RAG / fine-tuned+RAG).
@@ -61,7 +61,7 @@ def run_evaluation(collection, *, include_baseline: bool = True) -> list[dict]:
             "rag_answer":           None,
             "rag_sources":          None,
             "finetuned_rag_answer": None,   # filled in after QLoRA integration
-            # Scores — fill manually after the demo (1–3 scale)
+            # Scores - fill manually after the demo (1-3 scale)
             "baseline_accuracy":         None,
             "baseline_specificity":      None,
             "baseline_conciseness":      None,
@@ -96,7 +96,7 @@ def main() -> None:
     args = parser.parse_args()
 
     print("=" * 50)
-    print("  Ask Andela — Evaluation Runner")
+    print("  Ask Andela - Evaluation Runner")
     print("=" * 50)
 
     collection = load_vectorstore(CHROMA_DIR)
@@ -106,10 +106,10 @@ def main() -> None:
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(results, f, indent=2, ensure_ascii=False)
 
-    print(f"\n✓  Results saved to {output_path}")
+    print(f"\nResults saved to {output_path}")
     print(
         "\nNext steps:\n"
-        "  1. Open eval_results.json and score each response 1–3 on "
+        "  1. Open eval_results.json and score each response 1-3 on "
         "Accuracy / Specificity / Conciseness.\n"
         "  2. After QLoRA fine-tuning, populate the 'finetuned_rag_answer' column "
         "and re-score.\n"

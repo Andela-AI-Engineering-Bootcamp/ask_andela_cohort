@@ -1,7 +1,7 @@
 """
 Embedding model + ChromaDB vector store management.
 
-The SentenceTransformer model is a module-level singleton — loaded once on
+The SentenceTransformer model is a module-level singleton - loaded once on
 first use and reused across all calls, so startup cost is paid only once.
 """
 import time
@@ -80,7 +80,7 @@ def build_vectorstore(
         )
 
     elapsed = time.time() - t0
-    print(f"[vectorstore] Done — {collection.count()} vectors in {elapsed:.1f}s")
+    print(f"[vectorstore] Done - {collection.count()} vectors in {elapsed:.1f}s")
     return collection
 
 

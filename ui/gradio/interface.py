@@ -78,7 +78,7 @@ def build(collection: chromadb.Collection) -> gr.Blocks:
                 with gr.Row():
                     question_box = gr.Textbox(
                         elem_id="question-box",
-                        placeholder="Ask anything about the bootcamp materials…",
+                        placeholder="Ask anything about the bootcamp materials...",
                         show_label=False,
                         lines=1,
                         scale=5,
@@ -97,8 +97,8 @@ def build(collection: chromadb.Collection) -> gr.Blocks:
 
         gr.HTML("""
             <div id="footer">
-                Powered by <span>OpenRouter</span> &nbsp;·&nbsp;
-                Embeddings: all-MiniLM-L6-v2 &nbsp;·&nbsp;
+                Powered by <span>OpenRouter</span> &nbsp;|&nbsp;
+                Embeddings: all-MiniLM-L6-v2 &nbsp;|&nbsp;
                 Vector store: <span>ChromaDB</span>
             </div>
         """)
