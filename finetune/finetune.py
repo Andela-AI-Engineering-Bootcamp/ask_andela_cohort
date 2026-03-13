@@ -17,7 +17,6 @@ REPO_ID = f"{HF_USERNAME}/{REPO_NAME}"
 MODEL_NAME = "Qwen/Qwen2.5-0.5B-Instruct"
 USE_HF_DATASET = True  # False = use DATASET_PATH below
 REPO_ID = "Karosi/ask-andela-finetune-dataset"  # from upload cell output
-DATASET_PATH = "data/finetune_dataset.jsonl"
 OUTPUT_DIR = "checkpoints/ask_andela_lora"
 USE_4BIT = True
 MAX_SEQ_LEN = 512
