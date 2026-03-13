@@ -1,0 +1,4 @@
+question_id,question,model_type,accuracy,specificity,conciseness,total_score
+1,What is RAG and why do we use it?,Base model,2,1,2,5
+2,Which vector database does the cohort use?,Fine tuned model,3,2,3,8
+3,What is the expected deliverable for the capstone?,Fine tuned + RAG model,3,3,2,8

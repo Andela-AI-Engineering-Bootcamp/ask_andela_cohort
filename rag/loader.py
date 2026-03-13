@@ -1,13 +1,13 @@
 """
-Document loader — reads .txt (and optional .pdf) files from the data directory.
+Document loader - reads .txt (and optional .pdf) files from the data directory.
 
 Each document is returned as:
     {"content": str, "metadata": {"source": filename, "category": category}}
 
 Category is inferred from the filename prefix:
-    channel_*   → discourse_channel
-    resource_*  → course_resource
-    week*       → week_content
+    channel_*   -> discourse_channel
+    resource_*  -> course_resource
+    week*       -> week_content
 """
 from pathlib import Path
 
